@@ -1,0 +1,8 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake:239 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:15 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

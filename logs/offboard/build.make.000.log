@@ -1,0 +1,12 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/rotor_control_test.dir/src/rotor_control_test.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/offboard_node1.dir/src/offboard_node1.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/offboard_node4.dir/src/offboard_node4.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ground_station.dir/src/ground_station.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/offboard/lib/offboard/rotor_control_test[0m
+[ 75%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/offboard/lib/offboard/offboard_node4[0m
+[ 87%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/offboard/lib/offboard/offboard_node1[0m
+[100%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/offboard/lib/offboard/ground_station[0m
+[100%] Built target rotor_control_test
+[100%] Built target offboard_node1
+[100%] Built target offboard_node4
+[100%] Built target ground_station

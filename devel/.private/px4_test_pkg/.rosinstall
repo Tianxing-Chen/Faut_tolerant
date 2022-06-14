@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chen/fault_tolerant_control/devel/.private/px4_test_pkg/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/install
+
+Name: ftc_ctrl
+Description: Description of ftc_ctrl
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs quad_msgs eigen_catkin mavros

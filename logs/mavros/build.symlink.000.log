@@ -1,0 +1,8 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/mavros/cmake/mavrosConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/mavros/cmake/mavrosConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/libmavros_plugins.so
+Symlinking /home/chen/fault_tolerant_control/devel/lib/libmavros.so
+Symlinking /home/chen/fault_tolerant_control/devel/lib/mavros/mavros_node
+Symlinking /home/chen/fault_tolerant_control/devel/lib/mavros/gcs_bridge
+Symlinking /home/chen/fault_tolerant_control/devel/lib/python2.7/dist-packages/mavros/__init__.py
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/mavros.pc

@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "quad_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ControlCommand" :depends-on ("_package_ControlCommand"))
+    (:file "_package_ControlCommand" :depends-on ("_package"))
+    (:file "ControllerFeedback" :depends-on ("_package_ControllerFeedback"))
+    (:file "_package_ControllerFeedback" :depends-on ("_package"))
+    (:file "OnboardParameter" :depends-on ("_package_OnboardParameter"))
+    (:file "_package_OnboardParameter" :depends-on ("_package"))
+    (:file "OnboardStatus" :depends-on ("_package_OnboardStatus"))
+    (:file "_package_OnboardStatus" :depends-on ("_package"))
+    (:file "Px4Timesync" :depends-on ("_package_Px4Timesync"))
+    (:file "_package_Px4Timesync" :depends-on ("_package"))
+    (:file "QuadDesiredState" :depends-on ("_package_QuadDesiredState"))
+    (:file "_package_QuadDesiredState" :depends-on ("_package"))
+    (:file "QuadDesiredTorquesAndThrust" :depends-on ("_package_QuadDesiredTorquesAndThrust"))
+    (:file "_package_QuadDesiredTorquesAndThrust" :depends-on ("_package"))
+    (:file "QuadGpioPwmCtrl" :depends-on ("_package_QuadGpioPwmCtrl"))
+    (:file "_package_QuadGpioPwmCtrl" :depends-on ("_package"))
+    (:file "QuadReferenceCommand" :depends-on ("_package_QuadReferenceCommand"))
+    (:file "_package_QuadReferenceCommand" :depends-on ("_package"))
+    (:file "QuadRotorThrusts" :depends-on ("_package_QuadRotorThrusts"))
+    (:file "_package_QuadRotorThrusts" :depends-on ("_package"))
+    (:file "QuadStateEstimate" :depends-on ("_package_QuadStateEstimate"))
+    (:file "_package_QuadStateEstimate" :depends-on ("_package"))
+  ))

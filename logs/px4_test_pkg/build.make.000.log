@@ -1,0 +1,63 @@
+[  0%] Built target _px4_test_pkg_generate_messages_check_deps_Mission
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_py
+[  7%] [34m[1mGenerating Python code from SRV px4_test_pkg/Mission[0m
+[ 15%] [34m[1mGenerating EusLisp code from px4_test_pkg/Mission.srv[0m
+[ 23%] [34m[1mGenerating C++ code from px4_test_pkg/Mission.srv[0m
+[ 30%] [34m[1mGenerating EusLisp manifest code for px4_test_pkg[0m
+[ 38%] [34m[1mGenerating Lisp code from px4_test_pkg/Mission.srv[0m
+[ 46%] [34m[1mGenerating Python srv __init__.py for px4_test_pkg[0m
+[ 53%] [34m[1mGenerating Javascript code from px4_test_pkg/Mission.srv[0m
+[ 53%] Built target px4_test_pkg_generate_messages_lisp
+[ 53%] Built target px4_test_pkg_generate_messages_cpp
+[ 53%] Built target px4_test_pkg_generate_messages_nodejs
+[ 53%] Built target px4_test_pkg_generate_messages_py
+[ 53%] Built target px4_test_pkg_generate_messages_eus
+[ 53%] Built target px4_test_pkg_generate_messages
+[ 61%] [32mBuilding CXX object CMakeFiles/console.dir/src/console.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/px4_test_pkg/lib/px4_test_pkg/console[0m
+[ 76%] Built target console
+[ 84%] [32m[1mLinking CXX shared library /home/chen/fault_tolerant_control/devel/.private/px4_test_pkg/lib/libcontroller.so[0m
+[ 84%] Built target controller
+[ 92%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/px4_test_pkg/lib/px4_test_pkg/controller_node[0m
+[100%] Built target controller_node

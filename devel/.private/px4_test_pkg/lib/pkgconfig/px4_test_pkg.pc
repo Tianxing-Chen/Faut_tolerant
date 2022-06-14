@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/devel/.private/px4_test_pkg
+
+Name: px4_test_pkg
+Description: Description of px4_test_pkg
+Version: 0.0.0
+Cflags: -I/home/chen/fault_tolerant_control/devel/.private/px4_test_pkg/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

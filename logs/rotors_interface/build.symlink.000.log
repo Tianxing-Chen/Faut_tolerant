@@ -1,0 +1,4 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/rotors_interface/cmake/rotors_interfaceConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/rotors_interface/cmake/rotors_interfaceConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/rotors_interface/rotors_interface
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/rotors_interface.pc

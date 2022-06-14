@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/install
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 1.12.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs

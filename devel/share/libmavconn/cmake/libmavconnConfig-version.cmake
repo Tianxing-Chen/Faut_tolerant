@@ -1,0 +1,1 @@
+/home/chen/fault_tolerant_control/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake

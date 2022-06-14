@@ -1,0 +1,4 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/eigen_catkin/cmake/eigen_catkinConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/eigen_catkin/cmake/eigen-extras.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/eigen_catkin/cmake/eigen_catkinConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/eigen_catkin.pc

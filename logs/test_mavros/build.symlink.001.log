@@ -1,0 +1,5 @@
+Linked: (/home/chen/fault_tolerant_control/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake, /home/chen/fault_tolerant_control/devel/share/test_mavros/cmake/test_mavrosConfig.cmake)
+Linked: (/home/chen/fault_tolerant_control/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake, /home/chen/fault_tolerant_control/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake)
+Linked: (/home/chen/fault_tolerant_control/devel/.private/test_mavros/lib/libmavros_sitl_test.so, /home/chen/fault_tolerant_control/devel/lib/libmavros_sitl_test.so)
+Linked: (/home/chen/fault_tolerant_control/devel/.private/test_mavros/lib/test_mavros/sitl_test_node, /home/chen/fault_tolerant_control/devel/lib/test_mavros/sitl_test_node)
+Linked: (/home/chen/fault_tolerant_control/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc, /home/chen/fault_tolerant_control/devel/lib/pkgconfig/test_mavros.pc)

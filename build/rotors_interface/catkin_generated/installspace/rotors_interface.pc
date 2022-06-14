@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/install
+
+Name: rotors_interface
+Description: Description of rotors_interface
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp mav_msgs nav_msgs quad_msgs eigen_catkin mavros

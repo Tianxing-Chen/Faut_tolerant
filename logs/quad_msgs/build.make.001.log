@@ -1,0 +1,27 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _quad_msgs_generate_messages_check_deps_ControlCommand
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadDesiredState
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadRotorThrusts
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _quad_msgs_generate_messages_check_deps_ControllerFeedback
+[  0%] Built target _quad_msgs_generate_messages_check_deps_OnboardStatus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadStateEstimate
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadGpioPwmCtrl
+[  0%] Built target _quad_msgs_generate_messages_check_deps_Px4Timesync
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadReferenceCommand
+[  0%] Built target _quad_msgs_generate_messages_check_deps_QuadDesiredTorquesAndThrust
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _quad_msgs_generate_messages_check_deps_OnboardParameter
+[ 66%] Built target quad_msgs_generate_messages_lisp
+[ 66%] Built target quad_msgs_generate_messages_nodejs
+[100%] Built target quad_msgs_generate_messages_py
+[100%] Built target quad_msgs_generate_messages_eus
+[100%] Built target quad_msgs_generate_messages_cpp
+[100%] Built target quad_msgs_generate_messages

@@ -1,0 +1,7 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/offboard/cmake/offboardConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/offboard/cmake/offboardConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/rotor_control_test
+Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/ground_station
+Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node1
+Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node4
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/offboard.pc

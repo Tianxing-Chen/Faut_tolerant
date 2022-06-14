@@ -1,0 +1,6 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/libmavros_extras.so
+Symlinking /home/chen/fault_tolerant_control/devel/lib/mavros_extras/visualization
+Symlinking /home/chen/fault_tolerant_control/devel/lib/mavros_extras/servo_state_publisher
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/mavros_extras.pc

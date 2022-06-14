@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/devel/.private/libmavconn
+
+Name: libmavconn
+Description: Description of libmavconn
+Version: 1.12.2
+Cflags: -I/home/chen/fault_tolerant_control/src/mavros/libmavconn/include -I/usr/include -I/home/chen/fault_tolerant_control/devel/include
+Libs: -L${prefix}/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: 

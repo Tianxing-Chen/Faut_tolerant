@@ -1,0 +1,1 @@
+/home/chen/fault_tolerant_control/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/WaypointReached.lisp

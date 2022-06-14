@@ -1,0 +1,37 @@
+Not searching for unused variables given on the command line.
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake:239 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:15 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Found Python2: /usr/bin/python2.7 (found version "2.7.17") found components: Interpreter
+[36m--[0m Python 2 iterpretator: /usr/bin/python2.7
+[36m--[0m Package version: 2021.12.12
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[36m--[0m processing v1.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[36m--[0m processing v2.0: /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/chen/fault_tolerant_control/build/mavlink

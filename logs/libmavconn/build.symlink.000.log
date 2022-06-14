@@ -1,0 +1,5 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/libmavconn.so
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/libmavconn.pc
