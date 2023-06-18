@@ -1,8 +1,8 @@
-[35m[1mConsolidate compiler generated dependencies of target rotor_control_test[0m
+[35m[1mConsolidate compiler generated dependencies of target offboard_node[0m
 [35m[1mConsolidate compiler generated dependencies of target offboard_node4[0m
-[35m[1mConsolidate compiler generated dependencies of target offboard_node1[0m
+[35m[1mConsolidate compiler generated dependencies of target rotor_control_test[0m
 [35m[1mConsolidate compiler generated dependencies of target ground_station[0m
+[ 25%] Built target offboard_node
 [ 75%] Built target ground_station
 [ 75%] Built target offboard_node4
-[ 75%] Built target offboard_node1
 [100%] Built target rotor_control_test

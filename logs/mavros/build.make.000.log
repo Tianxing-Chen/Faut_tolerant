@@ -1,101 +1,95 @@
-[  0%] Built target diagnostic_msgs_generate_messages_cpp
 [  0%] Built target trajectory_msgs_generate_messages_py
-[  0%] Built target geographic_msgs_generate_messages_nodejs
-[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target mavros_msgs_generate_messages_py
 [  0%] Built target uuid_msgs_generate_messages_nodejs
 [  0%] Built target uuid_msgs_generate_messages_eus
 [  0%] Built target geographic_msgs_generate_messages_py
-[  0%] Built target mavros_msgs_generate_messages_eus
-[  0%] Built target mavros_msgs_generate_messages_lisp
 [  0%] Built target mavros_msgs_generate_messages_nodejs
-[  0%] Built target sensor_msgs_generate_messages_cpp
-[  0%] Built target uuid_msgs_generate_messages_py
-[  0%] Built target mavros_msgs_generate_messages_cpp
-[  0%] Built target uuid_msgs_generate_messages_lisp
-[  0%] Built target mavros_msgs_generate_messages_py
 [  0%] Built target sensor_msgs_generate_messages_eus
-[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_py
 [  0%] Built target sensor_msgs_generate_messages_lisp
-[  0%] Built target sensor_msgs_generate_messages_py
-[  0%] Built target nav_msgs_generate_messages_nodejs
-[  0%] Built target nav_msgs_generate_messages_cpp
 [  0%] Built target nav_msgs_generate_messages_lisp
-[  0%] Built target actionlib_msgs_generate_messages_lisp
-[  0%] Built target nav_msgs_generate_messages_eus
-[  0%] Built target actionlib_msgs_generate_messages_cpp
-[  0%] Built target diagnostic_msgs_generate_messages_lisp
-[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
 [  0%] Built target nav_msgs_generate_messages_py
-[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
 [  0%] Built target actionlib_msgs_generate_messages_eus
-[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
 [  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target diagnostic_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_nodejs
-[  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target diagnostic_msgs_generate_messages_nodejs
-[  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
 [  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
 [  0%] Built target roscpp_generate_messages_nodejs
-[  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_eus
 [  0%] Built target rosgraph_msgs_generate_messages_cpp
-[  0%] Built target roscpp_generate_messages_py
-[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
 [  0%] Built target rosgraph_msgs_generate_messages_lisp
-[  0%] Built target rosgraph_msgs_generate_messages_py
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_lisp
-[  0%] Built target geographic_msgs_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_eus
-[  0%] Built target std_srvs_generate_messages_nodejs
-[  0%] Built target std_srvs_generate_messages_eus
-[  0%] Built target actionlib_generate_messages_cpp
-[  0%] Built target std_srvs_generate_messages_lisp
-[  0%] Built target geographic_msgs_generate_messages_eus
-[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geographic_msgs_generate_messages_cpp
 [  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_eus
 [  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target actionlib_generate_messages_lisp
-[  0%] Built target actionlib_generate_messages_nodejs
-[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
 [  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
 [  0%] Built target tf2_msgs_generate_messages_eus
 [  0%] Built target trajectory_msgs_generate_messages_cpp
-[  0%] Built target trajectory_msgs_generate_messages_nodejs
-[  0%] Built target tf2_msgs_generate_messages_lisp
-[  0%] Built target trajectory_msgs_generate_messages_eus
-[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
 [  0%] Built target tf2_msgs_generate_messages_py
-[  0%] Built target tf2_msgs_generate_messages_nodejs
-[  2%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
-[  4%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  4%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavlink_diag.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
 [  6%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
-[  8%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavlink_diag.cpp.o[0m
-[ 10%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/rosconsole_bridge.cpp.o[0m
-[ 13%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
-[ 15%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/rosconsole_bridge.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
 [ 17%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros.cpp.o[0m
-[ 19%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
-[ 21%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/enum_to_string.cpp:19[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 19%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/uas_data.cpp:17[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/enum_to_string.cpp:19[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -107,7 +101,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/uas_stringify.cpp:17[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/uas_data.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -119,26 +113,53 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/lib/uas_stringify.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
 [ 23%] [32m[1mLinking CXX shared library /home/chen/fault_tolerant_control/devel/.private/mavros/lib/libmavros.so[0m
 [ 23%] Built target mavros
-[ 26%] [32mBuilding CXX object CMakeFiles/gcs_bridge.dir/src/gcs_bridge.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/gcs_bridge.dir/src/gcs_bridge.cpp.o[0m
 [ 28%] [32mBuilding CXX object CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o[0m
-[ 30%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
-[ 34%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o[0m
-[ 34%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
-[ 39%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
-[ 39%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
-[ 41%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
-[ 52%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
-[ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
-[ 56%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
 [ 47%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o[0m
-[ 58%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/gcs_bridge.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/altitude.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/imu.cpp:18[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/dummy.cpp:18[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -153,7 +174,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/dummy.cpp:18[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/hil.cpp:19[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -167,21 +188,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/actuator_control.cpp:17[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/hil.cpp:19[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/home_position.cpp:17[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/ftp.cpp:20[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -203,13 +210,6 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/global_position.cpp:20[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/3dr_radio.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
@@ -217,7 +217,21 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/ftp.cpp:20[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/global_position.cpp:20[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/actuator_control.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/home_position.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -231,43 +245,29 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/imu.cpp:18[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros.h:24[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/mavros_node.cpp:14[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/altitude.cpp:17[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
 [ 60%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/mavros/lib/mavros/gcs_bridge[0m
-[ 65%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[ 63%] Built target gcs_bridge
 [ 65%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o[0m
-[ 65%] Built target gcs_bridge
 [ 67%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o[0m
-[ 69%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o[0m
-[ 71%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o[0m
 [ 73%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o[0m
 [ 76%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o[0m
 [ 78%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o[0m
 [ 80%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o[0m
-[ 82%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/mavros/lib/mavros/mavros_node[0m
-[ 84%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
-[ 86%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
-[ 89%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
-[ 89%] Built target mavros_node
+[ 82%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/mavros/lib/mavros/mavros_node[0m
 [ 91%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o[0m
 [ 93%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o[0m
+[ 93%] Built target mavros_node
 [ 95%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o[0m
 [ 97%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o[0m
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
@@ -278,14 +278,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/rc_io.cpp:17[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/param.cpp:19[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/nav_controller_output.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -300,6 +293,13 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/rc_io.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/safety_area.cpp:18[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
@@ -307,7 +307,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/nav_controller_output.cpp:17[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/param.cpp:19[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -321,13 +321,6 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_attitude.cpp:18[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_raw.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
@@ -335,21 +328,7 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_velocity.cpp:18[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_trajectory.cpp:17[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/sys_time.cpp:17[m[K:
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_attitude.cpp:18[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -363,7 +342,35 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
 In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_velocity.cpp:18[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/sys_time.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/vfr_hud.cpp:18[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/setpoint_trajectory.cpp:17[m[K:
+[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+ #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/wind_estimation.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -372,13 +379,6 @@ In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavro
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mission_protocol_base.h:27[m[K,
                  from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/waypoint.cpp:17[m[K:
-[01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
- #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
-                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/utils.h:22:0[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_uas.h:30[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
-                 from [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros/src/plugins/wind_estimation.cpp:17[m[K:
 [01m[K/home/chen/fault_tolerant_control/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:45:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
  #pragma GCC diagnostic ignored [01;35m[K"-Waddress-of-packed-member"[m[K
                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

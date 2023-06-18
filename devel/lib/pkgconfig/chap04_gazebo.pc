@@ -1,0 +1,1 @@
+/home/chen/fault_tolerant_control/devel/.private/chap04_gazebo/lib/pkgconfig/chap04_gazebo.pc

@@ -16,7 +16,7 @@ controller::controller(const std::string name, tf2_ros::Buffer *tf):
     private_nh.param("uav_name", uav_name_, std::string("uav1"));    
 
     uav_pose_sub_ = nh.subscribe<geometry_msgs::PoseStamped>("/vrpn_client_node/"+ uav_name_+"/pose", 10, &controller::uav_pose_cb, this);
-
+    // uav_state_sub_ = nh.subscribe<mavros_msgs::State>("mavros/state", 10, &controller::uav_state_cb, this);//buchong
     vision_pub_ = nh.advertise<geometry_msgs::PoseStamped>("mavros/vision_pose/pose", 10);
     goal_pub_ = nh.advertise<mavros_msgs::PositionTarget>("mavros/setpoint_raw/local",10);
 

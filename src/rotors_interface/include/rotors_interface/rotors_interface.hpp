@@ -51,6 +51,11 @@ namespace rotors_interface
             void rotorsOdometryCallback(const nav_msgs::Odometry::ConstPtr& msg);
             void rotorsgazeboOdometryCallback(const nav_msgs::Odometry::ConstPtr& msg);
             void ftcMotorCommandCallback(const quad_msgs::ControlCommand::ConstPtr& msg);
+
+            /*SYSUCODE*/
+            // ros::Subscriber pos_design_sub_;
+            // void ftcPosdesignCallback(const quad_msgs::QuadStateEstimate::ConstPtr& msg);
+            /*SYSUCODE*/
     };
 
 } // namespace rotors_interface

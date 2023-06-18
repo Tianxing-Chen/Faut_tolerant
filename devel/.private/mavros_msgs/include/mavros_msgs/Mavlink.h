@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -91,10 +91,10 @@ struct Mavlink_
    typedef uint16_t _checksum_type;
   _checksum_type checksum;
 
-   typedef std::vector<uint64_t, typename ContainerAllocator::template rebind<uint64_t>::other >  _payload64_type;
+   typedef std::vector<uint64_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint64_t>> _payload64_type;
   _payload64_type payload64;
 
-   typedef std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other >  _signature_type;
+   typedef std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> _signature_type;
   _signature_type signature;
 
 

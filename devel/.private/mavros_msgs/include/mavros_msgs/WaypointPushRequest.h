@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -39,7 +39,7 @@ struct WaypointPushRequest_
    typedef uint16_t _start_index_type;
   _start_index_type start_index;
 
-   typedef std::vector< ::mavros_msgs::Waypoint_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::Waypoint_<ContainerAllocator> >::other >  _waypoints_type;
+   typedef std::vector< ::mavros_msgs::Waypoint_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::Waypoint_<ContainerAllocator> >> _waypoints_type;
   _waypoints_type waypoints;
 
 

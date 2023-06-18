@@ -2,6 +2,9 @@ Symlinking /home/chen/fault_tolerant_control/devel/share/offboard/cmake/offboard
 Symlinking /home/chen/fault_tolerant_control/devel/share/offboard/cmake/offboardConfig.cmake
 Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/rotor_control_test
 Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/ground_station
-Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node1
 Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node4
+Symlinking /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node
 Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/offboard.pc
+Cleaning: (/home/chen/fault_tolerant_control/devel/.private/offboard/lib/offboard/offboard_node1, /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node1)
+Unlinking: /home/chen/fault_tolerant_control/devel/lib/offboard/offboard_node1
+Already unlinked: {}

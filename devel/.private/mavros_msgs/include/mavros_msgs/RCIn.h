@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -44,7 +44,7 @@ struct RCIn_
    typedef uint8_t _rssi_type;
   _rssi_type rssi;
 
-   typedef std::vector<uint16_t, typename ContainerAllocator::template rebind<uint16_t>::other >  _channels_type;
+   typedef std::vector<uint16_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint16_t>> _channels_type;
   _channels_type channels;
 
 

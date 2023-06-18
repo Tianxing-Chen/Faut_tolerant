@@ -167,7 +167,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so"
-         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/opt/ros/melodic/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so")
@@ -190,7 +190,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization"
-         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/opt/ros/melodic/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization")
@@ -210,7 +210,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher"
-         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/chen/fault_tolerant_control/devel/.private/mavros/lib:/opt/ros/melodic/lib:/home/chen/fault_tolerant_control/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher")

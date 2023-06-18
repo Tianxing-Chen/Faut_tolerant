@@ -1,0 +1,8 @@
+prefix=/home/chen/fault_tolerant_control/devel/.private/chap04_gazebo
+
+Name: chap04_gazebo
+Description: Description of chap04_gazebo
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp std_msgs

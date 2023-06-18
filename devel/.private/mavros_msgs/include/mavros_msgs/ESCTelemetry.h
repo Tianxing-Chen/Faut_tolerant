@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -40,7 +40,7 @@ struct ESCTelemetry_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::vector< ::mavros_msgs::ESCTelemetryItem_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::ESCTelemetryItem_<ContainerAllocator> >::other >  _esc_telemetry_type;
+   typedef std::vector< ::mavros_msgs::ESCTelemetryItem_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::ESCTelemetryItem_<ContainerAllocator> >> _esc_telemetry_type;
   _esc_telemetry_type esc_telemetry;
 
 

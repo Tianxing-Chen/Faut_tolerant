@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -61,25 +61,25 @@ struct PolynomialSegment_
    typedef ros::Duration _segment_time_type;
   _segment_time_type segment_time;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _x_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _x_type;
   _x_type x;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _y_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _y_type;
   _y_type y;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _z_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _z_type;
   _z_type z;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _rx_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _rx_type;
   _rx_type rx;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _ry_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _ry_type;
   _ry_type ry;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _rz_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _rz_type;
   _rz_type rz;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _yaw_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _yaw_type;
   _yaw_type yaw;
 
 

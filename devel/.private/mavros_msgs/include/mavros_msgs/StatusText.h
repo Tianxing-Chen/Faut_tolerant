@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -44,7 +44,7 @@ struct StatusText_
    typedef uint8_t _severity_type;
   _severity_type severity;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _text_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _text_type;
   _text_type text;
 
 
@@ -289,7 +289,7 @@ struct Printer< ::mavros_msgs::StatusText_<ContainerAllocator> >
     s << indent << "severity: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.severity);
     s << indent << "text: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.text);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.text);
   }
 };
 

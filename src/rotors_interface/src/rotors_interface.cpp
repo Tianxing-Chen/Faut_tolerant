@@ -37,18 +37,26 @@ RotorSInterface::RotorSInterface
         "command/motor_speed", 1);    
     state_est_pub_ = nh_.advertise<quad_msgs::QuadStateEstimate>(
         "state_est", 1);
-    rotor_control_pub_ = nh_.advertise<mavros_msgs::RotorControl>("rotor_control", 1000);     
+    rotor_control_pub_ = nh_.advertise<mavros_msgs::RotorControl>(
+        "mavros/rotorcontrol/rotor_control", 1);     
 
 /*订阅话题：订阅gazebo中的odometry；订阅容错控制器中control_command
-(问题：control_command是否为点击PWM控制信号，利用motorcommandcallback转化成电机转速并利用motor_speed话题发布出去，如果是转化函数是多少)*/
+(问题：control_command是否为电机PWM控制信号，利用motorcommandcallback转化成电机转速并利用motor_speed话题发布出去，如果是转化函数是多少)*/
 
     rotors_odometry_sub_ = nh_.subscribe(
         "ground_truth/odometry", 1, &RotorSInterface::rotorsOdometryCallback, this);  
     rotors_gazebo_odometry_sub_ = nh_.subscribe(
-        "/uav1/mavros/local_position/odom", 1, &RotorSInterface::rotorsgazeboOdometryCallback, this);     
+        "mavros/local_position/odom", 1, &RotorSInterface::rotorsgazeboOdometryCallback, this);     
     motor_command_sub_ = nh_.subscribe(
         "control_command", 1, &RotorSInterface::ftcMotorCommandCallback, this);  
-}
+
+    /*SYSUCODE*/
+    // pos_design_sub_ = nh_.subscribe(
+    //     "pos_design", 1, &RotorSInterface::ftcPosdesignCallback, this);
+            
+    /*SYSUCODE*/
+    };
+
 
 RotorSInterface::~RotorSInterface(){}
 
@@ -139,6 +147,14 @@ void RotorSInterface::ftcMotorCommandCallback(
 {
     mav_msgs::Actuators desired_motor_speed;
     mavros_msgs::RotorControl rotor_control_msg_;
+
+    /*SYSU Code begining*/
+    for (int i=0; i<4;i++) {
+      rotor_control_msg_.mot_throttle[i] = msg->mot_throttle[i];
+    } 
+    rotor_control_pub_.publish(rotor_control_msg_);
+    // ROS_INFO("aaaaaaaaccelrotor_control_pub_aaaaaaaa is ");
+    /*SYSU Code ending*/
     
     for (int i=0; i<4; i++)
     {
@@ -159,12 +175,6 @@ rotor_speed = mot_throttle*mot_throttle*系数1 + mot_throttle*系数2 + 系数3
     }
 /*发布command/motor_speed话题内容*/
 
-/*SYSU Code begining*/
-    for (int i=0; i<4;i++) {
-      rotor_control_msg_.mot_throttle[i] = msg->mot_throttle[i];
-    } 
-    rotor_control_pub_.publish(rotor_control_msg_);
-/*SYSU Code ending*/
     rotors_desired_motor_speed_pub_.publish(desired_motor_speed);
     
     return;
@@ -181,4 +191,17 @@ bool RotorSInterface::loadParams()
     return check; 
 }
 
+/*POSdesign传参 SYSUCODE*/
+// void ftcPosdesignCallback(const quad_msgs::QuadStateEstimate::ConstPtr& msg)
+// {
+//     quad_msgs::QuadStateEstimate msg_pos;
+//     msg_pos.header = msg->header;
+//     msg_pos.position.x = msg->position.x;
+//     msg_pos.position.y = msg->position.y;
+//     msg_pos.position.z = msg->position.z;
+//     msg_pos.velocity.x = msg->velocity.x;
+//     msg_pos.velocity.y = msg->velocity.y;
+//     msg_pos.velocity.z = msg->velocity.z;
+// }
+/*POSdesign传参 SYSUCODE*/
 }//namespace rotors_interface

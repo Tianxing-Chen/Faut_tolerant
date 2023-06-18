@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -39,7 +39,7 @@ struct VehicleInfoGetResponse_
    typedef uint8_t _success_type;
   _success_type success;
 
-   typedef std::vector< ::mavros_msgs::VehicleInfo_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::VehicleInfo_<ContainerAllocator> >::other >  _vehicles_type;
+   typedef std::vector< ::mavros_msgs::VehicleInfo_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::VehicleInfo_<ContainerAllocator> >> _vehicles_type;
   _vehicles_type vehicles;
 
 

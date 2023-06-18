@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -60,7 +60,7 @@ struct ESCInfo_
    typedef uint8_t _info_type;
   _info_type info;
 
-   typedef std::vector< ::mavros_msgs::ESCInfoItem_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::ESCInfoItem_<ContainerAllocator> >::other >  _esc_info_type;
+   typedef std::vector< ::mavros_msgs::ESCInfoItem_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::ESCInfoItem_<ContainerAllocator> >> _esc_info_type;
   _esc_info_type esc_info;
 
 

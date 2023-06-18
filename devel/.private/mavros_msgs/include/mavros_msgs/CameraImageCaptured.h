@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -66,7 +66,7 @@ struct CameraImageCaptured_
    typedef int8_t _capture_result_type;
   _capture_result_type capture_result;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _file_url_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _file_url_type;
   _file_url_type file_url;
 
 
@@ -296,7 +296,7 @@ struct Printer< ::mavros_msgs::CameraImageCaptured_<ContainerAllocator> >
     s << indent << "capture_result: ";
     Printer<int8_t>::stream(s, indent + "  ", v.capture_result);
     s << indent << "file_url: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.file_url);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.file_url);
   }
 };
 

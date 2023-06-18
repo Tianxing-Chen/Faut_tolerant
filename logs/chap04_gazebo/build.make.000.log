@@ -1,0 +1,217 @@
+/usr/bin/cmake -S/home/chen/fault_tolerant_control/src/chap04_gazebo -B/home/chen/fault_tolerant_control/build/chap04_gazebo --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles /home/chen/fault_tolerant_control/build/chap04_gazebo//CMakeFiles/progress.marks
+/usr/bin/make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[  0%] Built target std_msgs_generate_messages_eus
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_py.dir/build'.
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+/usr/bin/make  -f CMakeFiles/chap04_gazebo_node.dir/build.make CMakeFiles/chap04_gazebo_node.dir/depend
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+cd /home/chen/fault_tolerant_control/build/chap04_gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/src/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles/chap04_gazebo_node.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/make  -f CMakeFiles/chap04_gazebo_node.dir/build.make CMakeFiles/chap04_gazebo_node.dir/build
+make[2]: Entering directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+[  9%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/rtGetNaN.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo_data.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/rtGetInf.cpp.o[0m
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/rtGetNaN.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/rtGetNaN.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/rtGetNaN.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/rtGetNaN.cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/rt_nonfinite.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/rosnodeinterface.cpp.o[0m
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo_data.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo_data.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo_data.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/chap04_gazebo_data.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/chap04_gazebo.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/rtGetInf.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/rtGetInf.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/rtGetInf.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/rtGetInf.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/rt_nonfinite.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/rt_nonfinite.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/rt_nonfinite.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/rt_nonfinite.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/rosnodeinterface.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/rosnodeinterface.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/rosnodeinterface.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/rosnodeinterface.cpp
+[ 81%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/slros_generic_param.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/slros_busmsg_conversion.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/main.cpp.o[0m
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/slros_busmsg_conversion.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/slros_busmsg_conversion.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/slros_busmsg_conversion.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/slros_busmsg_conversion.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/main.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/main.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/main.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/main.cpp
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/slros_generic_param.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/slros_generic_param.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/slros_generic_param.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/slros_generic_param.cpp
+[ 90%] [32mBuilding CXX object CMakeFiles/chap04_gazebo_node.dir/slros_initialize.cpp.o[0m
+/usr/bin/c++ -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=chap04_gazebo -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"chap04_gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/chen/fault_tolerant_control/src/chap04_gazebo/include -I/home/chen/fault_tolerant_control/src/chap04_gazebo -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -std=c++0x -fpermissive -MD -MT CMakeFiles/chap04_gazebo_node.dir/slros_initialize.cpp.o -MF CMakeFiles/chap04_gazebo_node.dir/slros_initialize.cpp.o.d -o CMakeFiles/chap04_gazebo_node.dir/slros_initialize.cpp.o -c /home/chen/fault_tolerant_control/src/chap04_gazebo/slros_initialize.cpp
+[100%] [32m[1mLinking CXX executable /home/chen/fault_tolerant_control/devel/.private/chap04_gazebo/lib/chap04_gazebo/chap04_gazebo_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/chap04_gazebo_node.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++0x -fpermissive -rdynamic CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo.cpp.o CMakeFiles/chap04_gazebo_node.dir/chap04_gazebo_data.cpp.o CMakeFiles/chap04_gazebo_node.dir/rtGetInf.cpp.o CMakeFiles/chap04_gazebo_node.dir/rtGetNaN.cpp.o CMakeFiles/chap04_gazebo_node.dir/rt_nonfinite.cpp.o CMakeFiles/chap04_gazebo_node.dir/rosnodeinterface.cpp.o CMakeFiles/chap04_gazebo_node.dir/main.cpp.o CMakeFiles/chap04_gazebo_node.dir/slros_busmsg_conversion.cpp.o CMakeFiles/chap04_gazebo_node.dir/slros_initialize.cpp.o CMakeFiles/chap04_gazebo_node.dir/slros_generic_param.cpp.o -o /home/chen/fault_tolerant_control/devel/.private/chap04_gazebo/lib/chap04_gazebo/chap04_gazebo_node  -Wl,-rpath,/opt/ros/melodic/lib /opt/ros/melodic/lib/libroscpp.so -lboost_filesystem /opt/ros/melodic/lib/librosconsole.so /opt/ros/melodic/lib/librosconsole_log4cxx.so /opt/ros/melodic/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex /opt/ros/melodic/lib/libxmlrpcpp.so /opt/ros/melodic/lib/libroscpp_serialization.so /opt/ros/melodic/lib/librostime.so /opt/ros/melodic/lib/libcpp_common.so -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lrt -ldl 
+make[2]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+[100%] Built target chap04_gazebo_node
+make[1]: Leaving directory '/home/chen/fault_tolerant_control/build/chap04_gazebo'
+/usr/bin/cmake -E cmake_progress_start /home/chen/fault_tolerant_control/build/chap04_gazebo/CMakeFiles 0

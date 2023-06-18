@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_210a3/fast && /usr/bin/make  -f CMakeFiles/cmTC_210a3.dir/build.make CMakeFiles/cmTC_210a3.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3112e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3112e.dir/build.make CMakeFiles/cmTC_3112e.dir/build
 make[1]: Entering directory '/home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_210a3.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_210a3.dir/src.c.o -c /home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_210a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_210a3.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_210a3.dir/src.c.o -o cmTC_210a3 
-CMakeFiles/cmTC_210a3.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_3112e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3112e.dir/src.c.o -c /home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3112e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3112e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3112e.dir/src.c.o -o cmTC_3112e 
+CMakeFiles/cmTC_3112e.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_210a3.dir/build.make:98: recipe for target 'cmTC_210a3' failed
-make[1]: *** [cmTC_210a3] Error 1
+CMakeFiles/cmTC_3112e.dir/build.make:98: recipe for target 'cmTC_3112e' failed
+make[1]: *** [cmTC_3112e] Error 1
 make[1]: Leaving directory '/home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_210a3/fast' failed
-make: *** [cmTC_210a3/fast] Error 2
+Makefile:127: recipe for target 'cmTC_3112e/fast' failed
+make: *** [cmTC_3112e/fast] Error 2
 
 
 Source file was:
@@ -46,20 +46,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3e5b/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3e5b.dir/build.make CMakeFiles/cmTC_b3e5b.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_82c4d/fast && /usr/bin/make  -f CMakeFiles/cmTC_82c4d.dir/build.make CMakeFiles/cmTC_82c4d.dir/build
 make[1]: Entering directory '/home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3e5b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b3e5b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3e5b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3e5b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_b3e5b.dir/CheckFunctionExists.c.o -o cmTC_b3e5b  -lpthreads 
+Building C object CMakeFiles/cmTC_82c4d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_82c4d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82c4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c4d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_82c4d.dir/CheckFunctionExists.c.o -o cmTC_82c4d  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b3e5b.dir/build.make:98: recipe for target 'cmTC_b3e5b' failed
-make[1]: *** [cmTC_b3e5b] Error 1
+CMakeFiles/cmTC_82c4d.dir/build.make:98: recipe for target 'cmTC_82c4d' failed
+make[1]: *** [cmTC_82c4d] Error 1
 make[1]: Leaving directory '/home/chen/fault_tolerant_control/build/rotors_interface/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_b3e5b/fast' failed
-make: *** [cmTC_b3e5b/fast] Error 2
+Makefile:127: recipe for target 'cmTC_82c4d/fast' failed
+make: *** [cmTC_82c4d/fast] Error 2
 
 
 

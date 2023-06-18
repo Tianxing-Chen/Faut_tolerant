@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -40,7 +40,7 @@ struct PolynomialTrajectory_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::vector< ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator> >::other >  _segments_type;
+   typedef std::vector< ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator> >> _segments_type;
   _segments_type segments;
 
 

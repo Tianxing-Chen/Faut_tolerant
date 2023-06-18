@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -61,7 +61,7 @@ struct State_
    typedef uint8_t _manual_input_type;
   _manual_input_type manual_input;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _mode_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _mode_type;
   _mode_type mode;
 
    typedef uint8_t _system_status_type;
@@ -258,68 +258,68 @@ struct State_
 #endif
 
 
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_MANUAL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_CIRCLE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_STABILIZE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_TRAINING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_ACRO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_FBWA;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_FBWB;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_CRUISE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_AUTOTUNE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_AUTO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_RTL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_LOITER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_LAND;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_GUIDED;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_INITIALISING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_QSTABILIZE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_QHOVER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_QLOITER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_QLAND;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_PLANE_QRTL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_STABILIZE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_ACRO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_ALT_HOLD;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_AUTO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_GUIDED;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_LOITER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_RTL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_CIRCLE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_POSITION;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_LAND;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_OF_LOITER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_DRIFT;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_SPORT;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_FLIP;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_AUTOTUNE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_POSHOLD;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_BRAKE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_THROW;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_AVOID_ADSB;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_COPTER_GUIDED_NOGPS;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_MANUAL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_LEARNING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_STEERING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_HOLD;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_AUTO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_RTL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_GUIDED;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_APM_ROVER_INITIALISING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_MANUAL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_ACRO;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_ALTITUDE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_POSITION;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_OFFBOARD;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_STABILIZED;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_RATTITUDE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_MISSION;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_LOITER;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_RTL;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_LAND;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_RTGS;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_READY;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MODE_PX4_TAKEOFF;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_MANUAL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_CIRCLE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_STABILIZE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_TRAINING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_ACRO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_FBWA;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_FBWB;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_CRUISE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_AUTOTUNE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_AUTO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_RTL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_LOITER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_LAND;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_GUIDED;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_INITIALISING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_QSTABILIZE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_QHOVER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_QLOITER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_QLAND;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_PLANE_QRTL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_STABILIZE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_ACRO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_ALT_HOLD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_AUTO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_GUIDED;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_LOITER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_RTL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_CIRCLE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_POSITION;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_LAND;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_OF_LOITER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_DRIFT;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_SPORT;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_FLIP;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_AUTOTUNE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_POSHOLD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_BRAKE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_THROW;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_AVOID_ADSB;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_COPTER_GUIDED_NOGPS;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_MANUAL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_LEARNING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_STEERING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_HOLD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_AUTO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_RTL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_GUIDED;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_APM_ROVER_INITIALISING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_MANUAL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_ACRO;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_ALTITUDE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_POSITION;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_OFFBOARD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_STABILIZED;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_RATTITUDE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_MISSION;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_LOITER;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_RTL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_LAND;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_RTGS;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_READY;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MODE_PX4_TAKEOFF;
 
   typedef boost::shared_ptr< ::mavros_msgs::State_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::mavros_msgs::State_<ContainerAllocator> const> ConstPtr;
@@ -334,7 +334,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
 // constants requiring out of line definition
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_MANUAL =
         
           "MANUAL"
@@ -343,7 +343,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_CIRCLE =
         
           "CIRCLE"
@@ -352,7 +352,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_STABILIZE =
         
           "STABILIZE"
@@ -361,7 +361,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_TRAINING =
         
           "TRAINING"
@@ -370,7 +370,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_ACRO =
         
           "ACRO"
@@ -379,7 +379,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_FBWA =
         
           "FBWA"
@@ -388,7 +388,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_FBWB =
         
           "FBWB"
@@ -397,7 +397,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_CRUISE =
         
           "CRUISE"
@@ -406,7 +406,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_AUTOTUNE =
         
           "AUTOTUNE"
@@ -415,7 +415,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_AUTO =
         
           "AUTO"
@@ -424,7 +424,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_RTL =
         
           "RTL"
@@ -433,7 +433,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_LOITER =
         
           "LOITER"
@@ -442,7 +442,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_LAND =
         
           "LAND"
@@ -451,7 +451,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_GUIDED =
         
           "GUIDED"
@@ -460,7 +460,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_INITIALISING =
         
           "INITIALISING"
@@ -469,7 +469,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_QSTABILIZE =
         
           "QSTABILIZE"
@@ -478,7 +478,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_QHOVER =
         
           "QHOVER"
@@ -487,7 +487,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_QLOITER =
         
           "QLOITER"
@@ -496,7 +496,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_QLAND =
         
           "QLAND"
@@ -505,7 +505,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_PLANE_QRTL =
         
           "QRTL"
@@ -514,7 +514,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_STABILIZE =
         
           "STABILIZE"
@@ -523,7 +523,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_ACRO =
         
           "ACRO"
@@ -532,7 +532,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_ALT_HOLD =
         
           "ALT_HOLD"
@@ -541,7 +541,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_AUTO =
         
           "AUTO"
@@ -550,7 +550,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_GUIDED =
         
           "GUIDED"
@@ -559,7 +559,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_LOITER =
         
           "LOITER"
@@ -568,7 +568,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_RTL =
         
           "RTL"
@@ -577,7 +577,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_CIRCLE =
         
           "CIRCLE"
@@ -586,7 +586,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_POSITION =
         
           "POSITION"
@@ -595,7 +595,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_LAND =
         
           "LAND"
@@ -604,7 +604,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_OF_LOITER =
         
           "OF_LOITER"
@@ -613,7 +613,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_DRIFT =
         
           "DRIFT"
@@ -622,7 +622,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_SPORT =
         
           "SPORT"
@@ -631,7 +631,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_FLIP =
         
           "FLIP"
@@ -640,7 +640,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_AUTOTUNE =
         
           "AUTOTUNE"
@@ -649,7 +649,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_POSHOLD =
         
           "POSHOLD"
@@ -658,7 +658,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_BRAKE =
         
           "BRAKE"
@@ -667,7 +667,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_THROW =
         
           "THROW"
@@ -676,7 +676,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_AVOID_ADSB =
         
           "AVOID_ADSB"
@@ -685,7 +685,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_COPTER_GUIDED_NOGPS =
         
           "GUIDED_NOGPS"
@@ -694,7 +694,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_MANUAL =
         
           "MANUAL"
@@ -703,7 +703,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_LEARNING =
         
           "LEARNING"
@@ -712,7 +712,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_STEERING =
         
           "STEERING"
@@ -721,7 +721,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_HOLD =
         
           "HOLD"
@@ -730,7 +730,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_AUTO =
         
           "AUTO"
@@ -739,7 +739,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_RTL =
         
           "RTL"
@@ -748,7 +748,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_GUIDED =
         
           "GUIDED"
@@ -757,7 +757,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_APM_ROVER_INITIALISING =
         
           "INITIALISING"
@@ -766,7 +766,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_MANUAL =
         
           "MANUAL"
@@ -775,7 +775,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_ACRO =
         
           "ACRO"
@@ -784,7 +784,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_ALTITUDE =
         
           "ALTCTL"
@@ -793,7 +793,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_POSITION =
         
           "POSCTL"
@@ -802,7 +802,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_OFFBOARD =
         
           "OFFBOARD"
@@ -811,7 +811,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_STABILIZED =
         
           "STABILIZED"
@@ -820,7 +820,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_RATTITUDE =
         
           "RATTITUDE"
@@ -829,7 +829,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_MISSION =
         
           "AUTO.MISSION"
@@ -838,7 +838,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_LOITER =
         
           "AUTO.LOITER"
@@ -847,7 +847,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_RTL =
         
           "AUTO.RTL"
@@ -856,7 +856,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_LAND =
         
           "AUTO.LAND"
@@ -865,7 +865,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_RTGS =
         
           "AUTO.RTGS"
@@ -874,7 +874,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_READY =
         
           "AUTO.READY"
@@ -883,7 +883,7 @@ typedef boost::shared_ptr< ::mavros_msgs::State const> StateConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       State_<ContainerAllocator>::MODE_PX4_TAKEOFF =
         
           "AUTO.TAKEOFF"
@@ -1144,7 +1144,7 @@ struct Printer< ::mavros_msgs::State_<ContainerAllocator> >
     s << indent << "manual_input: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.manual_input);
     s << indent << "mode: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.mode);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.mode);
     s << indent << "system_status: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.system_status);
   }

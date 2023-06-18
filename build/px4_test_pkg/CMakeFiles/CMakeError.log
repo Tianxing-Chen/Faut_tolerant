@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ae50/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ae50.dir/build.make CMakeFiles/cmTC_3ae50.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cdafd/fast && /usr/bin/make  -f CMakeFiles/cmTC_cdafd.dir/build.make CMakeFiles/cmTC_cdafd.dir/build
 make[1]: Entering directory '/home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ae50.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3ae50.dir/src.c.o -c /home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3ae50
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae50.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_3ae50.dir/src.c.o -o cmTC_3ae50 
-CMakeFiles/cmTC_3ae50.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_cdafd.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cdafd.dir/src.c.o -c /home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cdafd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdafd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cdafd.dir/src.c.o -o cmTC_cdafd 
+CMakeFiles/cmTC_cdafd.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3ae50.dir/build.make:98: recipe for target 'cmTC_3ae50' failed
-make[1]: *** [cmTC_3ae50] Error 1
+CMakeFiles/cmTC_cdafd.dir/build.make:98: recipe for target 'cmTC_cdafd' failed
+make[1]: *** [cmTC_cdafd] Error 1
 make[1]: Leaving directory '/home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_3ae50/fast' failed
-make: *** [cmTC_3ae50/fast] Error 2
+Makefile:127: recipe for target 'cmTC_cdafd/fast' failed
+make: *** [cmTC_cdafd/fast] Error 2
 
 
 Source file was:
@@ -46,20 +46,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a70d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_a70d2.dir/build.make CMakeFiles/cmTC_a70d2.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75e6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_75e6a.dir/build.make CMakeFiles/cmTC_75e6a.dir/build
 make[1]: Entering directory '/home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a70d2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a70d2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a70d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a70d2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_a70d2.dir/CheckFunctionExists.c.o -o cmTC_a70d2  -lpthreads 
+Building C object CMakeFiles/cmTC_75e6a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_75e6a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75e6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75e6a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_75e6a.dir/CheckFunctionExists.c.o -o cmTC_75e6a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a70d2.dir/build.make:98: recipe for target 'cmTC_a70d2' failed
-make[1]: *** [cmTC_a70d2] Error 1
+CMakeFiles/cmTC_75e6a.dir/build.make:98: recipe for target 'cmTC_75e6a' failed
+make[1]: *** [cmTC_75e6a] Error 1
 make[1]: Leaving directory '/home/chen/fault_tolerant_control/build/px4_test_pkg/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_a70d2/fast' failed
-make: *** [cmTC_a70d2/fast] Error 2
+Makefile:127: recipe for target 'cmTC_75e6a/fast' failed
+make: *** [cmTC_75e6a/fast] Error 2
 
 
 

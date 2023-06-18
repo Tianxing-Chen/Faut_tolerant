@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -52,7 +52,7 @@ struct DebugValue_
    typedef int32_t _index_type;
   _index_type index;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _name_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _name_type;
   _name_type name;
 
    typedef float _value_float_type;
@@ -61,7 +61,7 @@ struct DebugValue_
    typedef int32_t _value_int_type;
   _value_int_type value_int;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _data_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _data_type;
   _data_type data;
 
    typedef uint8_t _type_type;
@@ -307,7 +307,7 @@ struct Printer< ::mavros_msgs::DebugValue_<ContainerAllocator> >
     s << indent << "index: ";
     Printer<int32_t>::stream(s, indent + "  ", v.index);
     s << indent << "name: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.name);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.name);
     s << indent << "value_float: ";
     Printer<float>::stream(s, indent + "  ", v.value_float);
     s << indent << "value_int: ";

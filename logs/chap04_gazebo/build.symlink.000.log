@@ -1,0 +1,4 @@
+Symlinking /home/chen/fault_tolerant_control/devel/share/chap04_gazebo/cmake/chap04_gazeboConfig-version.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/share/chap04_gazebo/cmake/chap04_gazeboConfig.cmake
+Symlinking /home/chen/fault_tolerant_control/devel/lib/chap04_gazebo/chap04_gazebo_node
+Symlinking /home/chen/fault_tolerant_control/devel/lib/pkgconfig/chap04_gazebo.pc

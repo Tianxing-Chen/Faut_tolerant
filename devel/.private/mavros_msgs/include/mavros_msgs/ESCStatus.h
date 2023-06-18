@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -40,7 +40,7 @@ struct ESCStatus_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::vector< ::mavros_msgs::ESCStatusItem_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::ESCStatusItem_<ContainerAllocator> >::other >  _esc_status_type;
+   typedef std::vector< ::mavros_msgs::ESCStatusItem_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::ESCStatusItem_<ContainerAllocator> >> _esc_status_type;
   _esc_status_type esc_status;
 
 

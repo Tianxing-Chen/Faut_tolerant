@@ -74,7 +74,7 @@
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/trajectory_msgs_generate_messages_py.dir
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/offboard_node4.dir
-/home/chen/fault_tolerant_control/build/offboard/CMakeFiles/offboard_node1.dir
+/home/chen/fault_tolerant_control/build/offboard/CMakeFiles/offboard_node.dir
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/rotor_control_test.dir
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/ground_station.dir
 /home/chen/fault_tolerant_control/build/offboard/CMakeFiles/test.dir

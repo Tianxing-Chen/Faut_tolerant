@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /home/chen/fault_tolerant_control/build/offboard
 
 # The main recursive "all" target.
 all: CMakeFiles/offboard_node4.dir/all
-all: CMakeFiles/offboard_node1.dir/all
+all: CMakeFiles/offboard_node.dir/all
 all: CMakeFiles/rotor_control_test.dir/all
 all: CMakeFiles/ground_station.dir/all
 all: gtest/all
@@ -151,7 +151,7 @@ clean: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean
 clean: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
 clean: CMakeFiles/offboard_node4.dir/clean
-clean: CMakeFiles/offboard_node1.dir/clean
+clean: CMakeFiles/offboard_node.dir/clean
 clean: CMakeFiles/rotor_control_test.dir/clean
 clean: CMakeFiles/ground_station.dir/clean
 clean: gtest/clean
@@ -2182,30 +2182,30 @@ CMakeFiles/offboard_node4.dir/clean:
 .PHONY : CMakeFiles/offboard_node4.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/offboard_node1.dir
+# Target rules for target CMakeFiles/offboard_node.dir
 
 # All Build rule for target.
-CMakeFiles/offboard_node1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/fault_tolerant_control/build/offboard/CMakeFiles --progress-num=14,15 "Built target offboard_node1"
-.PHONY : CMakeFiles/offboard_node1.dir/all
+CMakeFiles/offboard_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/fault_tolerant_control/build/offboard/CMakeFiles --progress-num=14,15 "Built target offboard_node"
+.PHONY : CMakeFiles/offboard_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/offboard_node1.dir/rule: cmake_check_build_system
+CMakeFiles/offboard_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/fault_tolerant_control/build/offboard/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/offboard_node1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/offboard_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/fault_tolerant_control/build/offboard/CMakeFiles 0
-.PHONY : CMakeFiles/offboard_node1.dir/rule
+.PHONY : CMakeFiles/offboard_node.dir/rule
 
 # Convenience name for target.
-offboard_node1: CMakeFiles/offboard_node1.dir/rule
-.PHONY : offboard_node1
+offboard_node: CMakeFiles/offboard_node.dir/rule
+.PHONY : offboard_node
 
 # clean rule for target.
-CMakeFiles/offboard_node1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/clean
-.PHONY : CMakeFiles/offboard_node1.dir/clean
+CMakeFiles/offboard_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/clean
+.PHONY : CMakeFiles/offboard_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rotor_control_test.dir

@@ -208,8 +208,8 @@ include_directories(
 add_executable(offboard_node4 src/offboard_node4.cpp)
 target_link_libraries(offboard_node4 ${catkin_LIBRARIES})
 
-add_executable(offboard_node1 src/offboard_node1.cpp)
-target_link_libraries(offboard_node1 ${catkin_LIBRARIES})
+add_executable(offboard_node src/offboard_node.cpp)
+target_link_libraries(offboard_node ${catkin_LIBRARIES})
 
 add_executable(rotor_control_test src/rotor_control_test.cpp)
 target_link_libraries(rotor_control_test ${catkin_LIBRARIES})

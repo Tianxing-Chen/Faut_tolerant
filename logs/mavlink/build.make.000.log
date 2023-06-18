@@ -1,38 +1,38 @@
+[  4%] [34m[1mGenerating include/v1.0/all/all.h[0m
+[  9%] [34m[1mGenerating include/v1.0/development/development.h[0m
 [ 13%] [34m[1mGenerating include/v1.0/common/common.h[0m
-[ 13%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
-[ 13%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
-[ 18%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
-[ 22%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
-[ 31%] [34m[1mGenerating include/v1.0/development/development.h[0m
-[ 31%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+[ 18%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+[ 27%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
+[ 27%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
+[ 31%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
 [ 36%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
-[ 40%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
-[ 45%] [34m[1mGenerating include/v1.0/all/all.h[0m
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[ 40%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+[ 45%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Ignoring MAVLink2 message ICAROUS_HEARTBEAT
 Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Found 0 MAVLink message types in 1 XML files
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Generating C implementation in directory include/v1.0/icarous
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
 Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
 Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
@@ -42,8 +42,10 @@ Ignoring MAVLink2 message WIFI_NETWORK_INFO
 Ignoring MAVLink2 message COMPONENT_INFORMATION_BASIC
 Ignoring MAVLink2 message GROUP_START
 Ignoring MAVLink2 message GROUP_END
-Copying fixed headers for protocol 1.0 to include/v1.0
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Ignoring MAVLink2 message SENS_POWER
 Ignoring MAVLink2 message SENS_MPPT
 Ignoring MAVLink2 message ASLCTRL_DATA
@@ -58,9 +60,7 @@ Ignoring MAVLink2 message SENSORPOD_STATUS
 Ignoring MAVLink2 message SENS_POWER_BOARD
 Ignoring MAVLink2 message GSM_LINK_STATUS
 Ignoring MAVLink2 message SATCOM_LINK_STATUS
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
 Ignoring MAVLink2 message SENSOR_AIRFLOW_ANGLES
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
@@ -70,25 +70,6 @@ Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/c
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-[ 45%] Built target icarous.xml-v1.0
-Ignoring MAVLink2 message DEVICE_OP_READ
-Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
-Ignoring MAVLink2 message DEVICE_OP_WRITE
-Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
-Ignoring MAVLink2 message ADAP_TUNING
-Ignoring MAVLink2 message VISION_POSITION_DELTA
-Ignoring MAVLink2 message AOA_SSA
-Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
-Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
-Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
-Ignoring MAVLink2 message OSD_PARAM_CONFIG
-Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
-Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
-Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
-Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
-Ignoring MAVLink2 message WATER_DEPTH
-Ignoring MAVLink2 message MCU_STATUS
 Ignoring MAVLink2 message DEVICE_OP_READ
 Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
 Ignoring MAVLink2 message DEVICE_OP_WRITE
@@ -107,8 +88,26 @@ Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
 Ignoring MAVLink2 message WATER_DEPTH
 Ignoring MAVLink2 message MCU_STATUS
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message DEVICE_OP_READ
+Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
+Ignoring MAVLink2 message DEVICE_OP_WRITE
+Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
+Ignoring MAVLink2 message ADAP_TUNING
+Ignoring MAVLink2 message VISION_POSITION_DELTA
+Ignoring MAVLink2 message AOA_SSA
+Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
+Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
+Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
+Ignoring MAVLink2 message OSD_PARAM_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
+Ignoring MAVLink2 message WATER_DEPTH
+Ignoring MAVLink2 message MCU_STATUS
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Ignoring MAVLink2 message SENS_POWER
 Ignoring MAVLink2 message SENS_MPPT
@@ -126,9 +125,10 @@ Ignoring MAVLink2 message GSM_LINK_STATUS
 Ignoring MAVLink2 message SATCOM_LINK_STATUS
 Ignoring MAVLink2 message SENSOR_AIRFLOW_ANGLES
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+[ 45%] Built target icarous.xml-v1.0
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 [ 50%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -377,71 +377,144 @@ Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
 Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
 Ignoring MAVLink2 message ESC_INFO
 Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message ROTOR_CONTROL
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
 Ignoring MAVLink2 message WIFI_CONFIG_AP
 Ignoring MAVLink2 message AIS_VESSEL
 Ignoring MAVLink2 message UAVCAN_NODE_STATUS
 Ignoring MAVLink2 message UAVCAN_NODE_INFO
-Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
-Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
 Ignoring MAVLink2 message PARAM_EXT_VALUE
-Ignoring MAVLink2 message PLAY_TUNE
 Ignoring MAVLink2 message PARAM_EXT_SET
 Ignoring MAVLink2 message PARAM_EXT_ACK
-Ignoring MAVLink2 message CAMERA_INFORMATION
 Ignoring MAVLink2 message OBSTACLE_DISTANCE
-Ignoring MAVLink2 message CAMERA_SETTINGS
 Ignoring MAVLink2 message ODOMETRY
-Ignoring MAVLink2 message STORAGE_INFORMATION
 Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
 Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
-Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
 Ignoring MAVLink2 message CELLULAR_STATUS
 Ignoring MAVLink2 message ISBD_LINK_STATUS
-Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
 Ignoring MAVLink2 message CELLULAR_CONFIG
 Ignoring MAVLink2 message RAW_RPM
-Ignoring MAVLink2 message FLIGHT_INFORMATION
 Ignoring MAVLink2 message UTM_GLOBAL_POSITION
 Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
-Ignoring MAVLink2 message MOUNT_ORIENTATION
 Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
-Ignoring MAVLink2 message LOGGING_DATA
 Ignoring MAVLink2 message SMART_BATTERY_INFO
 Ignoring MAVLink2 message GENERATOR_STATUS
-Ignoring MAVLink2 message LOGGING_DATA_ACKED
 Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
 Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
-Ignoring MAVLink2 message LOGGING_ACK
 Ignoring MAVLink2 message TUNNEL
 Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
-Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
 Ignoring MAVLink2 message COMPONENT_INFORMATION
 Ignoring MAVLink2 message PLAY_TUNE_V2
 Ignoring MAVLink2 message SUPPORTED_TUNES
-Ignoring MAVLink2 message VIDEO_STREAM_STATUS
 Ignoring MAVLink2 message EVENT
 Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
-Ignoring MAVLink2 message CAMERA_FOV_STATUS
 Ignoring MAVLink2 message REQUEST_EVENT
 Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
-Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
 Ignoring MAVLink2 message WHEEL_DISTANCE
 Ignoring MAVLink2 message WINCH_STATUS
-Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
 Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
-Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
 Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
 Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
-Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
 Ignoring MAVLink2 message HYGROMETER_SENSOR
 Ignoring MAVLink2 message ROTOR_CONTROL
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
 Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
 Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
 Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
@@ -569,80 +642,6 @@ Ignoring MAVLink2 message HYGROMETER_SENSOR
 Ignoring MAVLink2 message ROTOR_CONTROL
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Ignoring MAVLink2 message SETUP_SIGNING
-Ignoring MAVLink2 message BUTTON_CHANGE
-Ignoring MAVLink2 message PLAY_TUNE
-Ignoring MAVLink2 message CAMERA_INFORMATION
-Ignoring MAVLink2 message CAMERA_SETTINGS
-Ignoring MAVLink2 message STORAGE_INFORMATION
-Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
-Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
-Ignoring MAVLink2 message FLIGHT_INFORMATION
-Ignoring MAVLink2 message MOUNT_ORIENTATION
-Ignoring MAVLink2 message LOGGING_DATA
-Ignoring MAVLink2 message LOGGING_DATA_ACKED
-Ignoring MAVLink2 message LOGGING_ACK
-Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
-Ignoring MAVLink2 message VIDEO_STREAM_STATUS
-Ignoring MAVLink2 message CAMERA_FOV_STATUS
-Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
-Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
-Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
-Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
-Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
-Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
-Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
-Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
-Ignoring MAVLink2 message ESC_INFO
-Ignoring MAVLink2 message ESC_STATUS
-Ignoring MAVLink2 message WIFI_CONFIG_AP
-Ignoring MAVLink2 message AIS_VESSEL
-Ignoring MAVLink2 message UAVCAN_NODE_STATUS
-Ignoring MAVLink2 message UAVCAN_NODE_INFO
-Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
-Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
-Ignoring MAVLink2 message PARAM_EXT_VALUE
-Ignoring MAVLink2 message PARAM_EXT_SET
-Ignoring MAVLink2 message PARAM_EXT_ACK
-Ignoring MAVLink2 message OBSTACLE_DISTANCE
-Ignoring MAVLink2 message ODOMETRY
-Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
-Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
-Ignoring MAVLink2 message CELLULAR_STATUS
-Ignoring MAVLink2 message ISBD_LINK_STATUS
-Ignoring MAVLink2 message CELLULAR_CONFIG
-Ignoring MAVLink2 message RAW_RPM
-Ignoring MAVLink2 message UTM_GLOBAL_POSITION
-Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
-Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
-Ignoring MAVLink2 message SMART_BATTERY_INFO
-Ignoring MAVLink2 message GENERATOR_STATUS
-Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
-Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
-Ignoring MAVLink2 message TUNNEL
-Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
-Ignoring MAVLink2 message COMPONENT_INFORMATION
-Ignoring MAVLink2 message PLAY_TUNE_V2
-Ignoring MAVLink2 message SUPPORTED_TUNES
-Ignoring MAVLink2 message EVENT
-Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
-Ignoring MAVLink2 message REQUEST_EVENT
-Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
-Ignoring MAVLink2 message WHEEL_DISTANCE
-Ignoring MAVLink2 message WINCH_STATUS
-Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
-Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
-Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
-Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
-Ignoring MAVLink2 message HYGROMETER_SENSOR
-Ignoring MAVLink2 message ROTOR_CONTROL
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -717,150 +716,152 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
 Ignoring MAVLink2 message HYGROMETER_SENSOR
 Ignoring MAVLink2 message ROTOR_CONTROL
 Ignoring MAVLink2 message PROTOCOL_VERSION
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 142 MAVLink message types in 2 XML files
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message ROTOR_CONTROL
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Found 142 MAVLink message types in 3 XML files
 Generating C implementation in directory include/v1.0/uAvionix
-Ignoring MAVLink2 message SETUP_SIGNING
-Ignoring MAVLink2 message BUTTON_CHANGE
-Ignoring MAVLink2 message PLAY_TUNE
-Ignoring MAVLink2 message CAMERA_INFORMATION
-Ignoring MAVLink2 message CAMERA_SETTINGS
-Ignoring MAVLink2 message STORAGE_INFORMATION
-Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
-Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
-Ignoring MAVLink2 message FLIGHT_INFORMATION
-Ignoring MAVLink2 message MOUNT_ORIENTATION
-Ignoring MAVLink2 message LOGGING_DATA
-Ignoring MAVLink2 message LOGGING_DATA_ACKED
-Ignoring MAVLink2 message LOGGING_ACK
-Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
-Ignoring MAVLink2 message VIDEO_STREAM_STATUS
-Ignoring MAVLink2 message CAMERA_FOV_STATUS
-Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
-Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
-Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
-Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
-Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
-Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
-Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
-Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
-Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
-Ignoring MAVLink2 message ESC_INFO
-Ignoring MAVLink2 message ESC_STATUS
-Ignoring MAVLink2 message WIFI_CONFIG_AP
-Ignoring MAVLink2 message AIS_VESSEL
-Ignoring MAVLink2 message UAVCAN_NODE_STATUS
-Ignoring MAVLink2 message UAVCAN_NODE_INFO
-Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
-Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
-Ignoring MAVLink2 message PARAM_EXT_VALUE
-Ignoring MAVLink2 message PARAM_EXT_SET
-Ignoring MAVLink2 message PARAM_EXT_ACK
-Ignoring MAVLink2 message OBSTACLE_DISTANCE
-Ignoring MAVLink2 message ODOMETRY
-Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
-Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
-Ignoring MAVLink2 message CELLULAR_STATUS
-Ignoring MAVLink2 message ISBD_LINK_STATUS
-Ignoring MAVLink2 message CELLULAR_CONFIG
-Ignoring MAVLink2 message RAW_RPM
-Ignoring MAVLink2 message UTM_GLOBAL_POSITION
-Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
-Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
-Ignoring MAVLink2 message SMART_BATTERY_INFO
-Ignoring MAVLink2 message GENERATOR_STATUS
-Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
-Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
-Ignoring MAVLink2 message TUNNEL
-Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
-Ignoring MAVLink2 message COMPONENT_INFORMATION
-Ignoring MAVLink2 message PLAY_TUNE_V2
-Ignoring MAVLink2 message SUPPORTED_TUNES
-Ignoring MAVLink2 message EVENT
-Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
-Ignoring MAVLink2 message REQUEST_EVENT
-Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
-Ignoring MAVLink2 message WHEEL_DISTANCE
-Ignoring MAVLink2 message WINCH_STATUS
-Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
-Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
-Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
-Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
-Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
-Ignoring MAVLink2 message HYGROMETER_SENSOR
-Ignoring MAVLink2 message ROTOR_CONTROL
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Generating C implementation in directory include/v1.0/common
-Ignoring MAVLink2 message PROTOCOL_VERSION
-Merged enum MAV_CMD
-Ignoring MAVLink2 message PROTOCOL_VERSION
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Found 144 MAVLink message types in 3 XML files
-Generating C implementation in directory include/v1.0/ASLUAV
-Found 147 MAVLink message types in 3 XML files
-Ignoring MAVLink2 message PROTOCOL_VERSION
-Generating C implementation in directory include/v1.0/paparazzi
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Ignoring MAVLink2 message PROTOCOL_VERSION
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-Ignoring MAVLink2 message PROTOCOL_VERSION
-Merged enum MAV_CMD
-Merged enum MAV_CMD
-Ignoring MAVLink2 message AIRSPEED
-Ignoring MAVLink2 message WIFI_NETWORK_INFO
-Ignoring MAVLink2 message COMPONENT_INFORMATION_BASIC
-Ignoring MAVLink2 message GROUP_START
-Ignoring MAVLink2 message GROUP_END
-Generating C implementation in directory include/v1.0/common
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Ignoring MAVLink2 message ICAROUS_HEARTBEAT
-Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
-Found 142 MAVLink message types in 2 XML files
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Generating C implementation in directory include/v1.0/common
-Ignoring MAVLink2 message PROTOCOL_VERSION
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Found 142 MAVLink message types in 3 XML files
-Merged enum MAV_CMD
-Generating C implementation in directory include/v1.0/standard
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
 Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
 Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Merged enum MAV_CMD
+Found 144 MAVLink message types in 3 XML files
+Ignoring MAVLink2 message PROTOCOL_VERSION
 Ignoring MAVLink2 message ICAROUS_HEARTBEAT
 Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Generating C implementation in directory include/v1.0/common
-Found 145 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/ASLUAV
+Merged enum MAV_CMD
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Found 145 MAVLink message types in 4 XML files
 Generating C implementation in directory include/v1.0/development
+Found 169 MAVLink message types in 3 XML files
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Generating C implementation in directory include/v1.0/matrixpilot
+Merged enum MAV_CMD
+Found 147 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/paparazzi
+Found 142 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/common
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message AIRSPEED
+Ignoring MAVLink2 message WIFI_NETWORK_INFO
+Ignoring MAVLink2 message COMPONENT_INFORMATION_BASIC
+Ignoring MAVLink2 message GROUP_START
+Ignoring MAVLink2 message GROUP_END
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 190 MAVLink message types in 5 XML files
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Generating C implementation in directory include/v1.0/ardupilotmega
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/standard
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/common
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/python_array_test.xml
-Found 169 MAVLink message types in 3 XML files
-Generating C implementation in directory include/v1.0/matrixpilot
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/python_array_test.xml
-Ignoring MAVLink2 message PROTOCOL_VERSION
 Ignoring MAVLink2 message ARRAY_TEST_0
 Ignoring MAVLink2 message ARRAY_TEST_1
 Ignoring MAVLink2 message ARRAY_TEST_3
@@ -870,7 +871,6 @@ Ignoring MAVLink2 message ARRAY_TEST_6
 Ignoring MAVLink2 message ARRAY_TEST_7
 Ignoring MAVLink2 message ARRAY_TEST_8
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Merged enum MAV_CMD
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/test.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/test.xml
@@ -883,11 +883,10 @@ Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
 Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
 Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
 Validating /home/chen/fault_tolerant_control/src/mavlink/external/dialects/storm32.xml
-Generating C implementation in directory include/v1.0/standard
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/external/dialects/storm32.xml
-Generating C implementation in directory include/v1.0/common
-Found 190 MAVLink message types in 5 XML files
-Generating C implementation in directory include/v1.0/ardupilotmega
 Ignoring MAVLink2 message STORM32_GIMBAL_DEVICE_STATUS
 Ignoring MAVLink2 message STORM32_GIMBAL_DEVICE_CONTROL
 Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_INFORMATION
@@ -901,15 +900,18 @@ Ignoring MAVLink2 message COMPONENT_PREARM_STATUS
 Validating /home/chen/fault_tolerant_control/src/mavlink/external/dialects/AVSSUAS.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/external/dialects/AVSSUAS.xml
 Ignoring MAVLink2 message AVSS_PRS_SYS_STATUS
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
+Generating C implementation in directory include/v1.0/common
 Found 198 MAVLink message types in 14 XML files
 Generating C implementation in directory include/v1.0/all
 Generating C implementation in directory include/v1.0/ardupilotmega
+Generating C implementation in directory include/v1.0/common
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -983,154 +985,130 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
 Ignoring MAVLink2 message HYGROMETER_SENSOR
 Ignoring MAVLink2 message ROTOR_CONTROL
-Generating C implementation in directory include/v1.0/common
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/ASLUAV
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/common
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Found 145 MAVLink message types in 3 XML files
 Generating C implementation in directory include/v1.0/ualberta
 Generating C implementation in directory include/v1.0/common
-Generating C implementation in directory include/v1.0/common
-Generating C implementation in directory include/v1.0/ASLUAV
-Generating C implementation in directory include/v1.0/common
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/minimal
 [ 50%] Built target uAvionix.xml-v1.0
-Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
 Generating C implementation in directory include/v1.0/minimal
-Copying fixed headers for protocol 1.0 to include/v1.0
 [ 54%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
-Generating C implementation in directory include/v1.0/minimal
-Copying fixed headers for protocol 1.0 to include/v1.0
-Generating C implementation in directory include/v1.0/minimal
 [ 54%] Built target common.xml-v1.0
 Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/minimal
 [ 54%] Built target paparazzi.xml-v1.0
-[ 54%] Built target ASLUAV.xml-v1.0
-[ 59%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
-Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
-[ 63%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 59%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v1.0/minimal
+[ 59%] Built target standard.xml-v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 59%] Built target development.xml-v1.0
+[ 59%] Built target ASLUAV.xml-v1.0
+[ 59%] Built target matrixpilot.xml-v1.0
+[ 63%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
 [ 68%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
-[ 68%] Built target standard.xml-v1.0
-[ 72%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
-[ 72%] Built target development.xml-v1.0
-Generating C implementation in directory include/v1.0/minimal
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
-Copying fixed headers for protocol 1.0 to include/v1.0
-[ 77%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
-Generating C implementation in directory include/v1.0/minimal
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Copying fixed headers for protocol 1.0 to include/v1.0
 Generating C implementation in directory include/v1.0/uAvionix
 Generating C implementation in directory include/v1.0/icarous
 Generating C implementation in directory include/v1.0/minimal
+[ 72%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
 Copying fixed headers for protocol 1.0 to include/v1.0
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-[ 77%] Built target matrixpilot.xml-v1.0
-Generating C implementation in directory include/v1.0/development
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Generating C implementation in directory include/v1.0/icarous
-[ 77%] Built target ualberta.xml-v1.0
-Generating C implementation in directory include/v1.0/minimal
-[ 81%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Generating C implementation in directory include/v1.0/python_array_test
-Generating C implementation in directory include/v1.0/standard
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[ 77%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+[ 81%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
-Generating C implementation in directory include/v1.0/test
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/all.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Generating C implementation in directory include/v1.0/ualberta
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Generating C implementation in directory include/v1.0/development
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/python_array_test
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
+Generating C implementation in directory include/v1.0/standard
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ualberta.xml
-[ 81%] Built target ardupilotmega.xml-v1.0
+Generating C implementation in directory include/v1.0/test
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/ualberta
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-[ 86%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
 Generating C implementation in directory include/v1.0/uAvionix
 Generating C implementation in directory include/v1.0/storm32
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[ 81%] Built target ardupilotmega.xml-v1.0
 Generating C implementation in directory include/v1.0/AVSSUAS
 Copying fixed headers for protocol 1.0 to include/v1.0
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-[ 90%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
 Found 2 MAVLink message types in 1 XML files
-[ 90%] Built target all.xml-v1.0
 Generating C headers
 Generating C implementation in directory include/v2.0/icarous
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/icarous
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-[ 95%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Copying fixed headers for protocol 2.0 to include/v2.0
+[ 81%] Built target ualberta.xml-v1.0
+Generating C++ implementation in directory include/v2.0/icarous
+[ 86%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/matrixpilot.xml
-[ 95%] Built target icarous.xml-v2.0
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[ 86%] Built target all.xml-v1.0
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[ 86%] Built target icarous.xml-v2.0
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Merged enum MAV_CMD
-Found 233 MAVLink message types in 3 XML files
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Generating C headers
-Generating C implementation in directory include/v2.0/ASLUAV
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
-Found 219 MAVLink message types in 3 XML files
-Generating C headers
-Generating C implementation in directory include/v2.0/ualberta
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Generating C implementation in directory include/v2.0/common
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Merged enum MAV_CMD
-Generating C implementation in directory include/v2.0/common
-Merged enum MAV_CMD
-Merged enum MAV_CMD
-Found 286 MAVLink message types in 5 XML files
-Generating C headers
-Generating C implementation in directory include/v2.0/ardupilotmega
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
-Found 224 MAVLink message types in 4 XML files
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 90%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Merged enum MAV_CMD
+[ 95%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Found 233 MAVLink message types in 3 XML files
 Generating C headers
-Generating C implementation in directory include/v2.0/development
+Generating C implementation in directory include/v2.0/ASLUAV
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/common
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Found 219 MAVLink message types in 3 XML files
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/development.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/ualberta
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/common
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/python_array_test.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/python_array_test.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/standard.xml
@@ -1142,125 +1120,147 @@ Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/u
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/external/dialects/storm32.xml
-Generating C implementation in directory include/v2.0/standard
 Parsing /home/chen/fault_tolerant_control/src/mavlink/external/dialects/storm32.xml
-Generating C implementation in directory include/v2.0/common
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/chen/fault_tolerant_control/src/mavlink/external/dialects/AVSSUAS.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/external/dialects/AVSSUAS.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
-Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Merged enum MAV_CMD
-Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Merged enum MAV_CMD
-Found 221 MAVLink message types in 3 XML files
-Found 334 MAVLink message types in 14 XML files
-Generating C headers
-Generating C implementation in directory include/v2.0/paparazzi
-Generating C headers
-Generating C implementation in directory include/v2.0/all
 Found 243 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/matrixpilot
+Found 334 MAVLink message types in 14 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/all
 Generating C implementation in directory include/v2.0/ardupilotmega
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 224 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/development
+Found 286 MAVLink message types in 5 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/common
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/ASLUAV
 Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 221 MAVLink message types in 3 XML files
+Generating C headers
 Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/paparazzi
+Generating C implementation in directory include/v2.0/common
 Found 216 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/standard
 Generating C implementation in directory include/v2.0/common
+Validating /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/chen/fault_tolerant_control/src/mavlink/message_definitions/v1.0/minimal.xml
 Generating C implementation in directory include/v2.0/common
 Found 219 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/uAvionix
 Generating C implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/common
-Generating C implementation in directory include/v2.0/ASLUAV
-Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/ualberta
 Generating C++ implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/matrixpilot
 Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/minimal
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/development
-Generating C implementation in directory include/v2.0/uAvionix
-Generating C implementation in directory include/v2.0/icarous
 Generating C++ implementation in directory include/v2.0/standard
 Generating C++ implementation in directory include/v2.0/common
-Generating C implementation in directory include/v2.0/minimal
-Generating C implementation in directory include/v2.0/minimal
 Generating C++ implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/paparazzi
-Copying fixed headers for protocol 2.0 to include/v2.0
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/ardupilotmega
 Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/matrixpilot
-[ 95%] Built target ualberta.xml-v2.0
-Generating C implementation in directory include/v2.0/minimal
-Generating C++ implementation in directory include/v2.0/common
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/uAvionix
-Generating C++ implementation in directory include/v2.0/common
-Generating C++ implementation in directory include/v2.0/common
-Generating C implementation in directory include/v2.0/minimal
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/standard
-Generating C++ implementation in directory include/v2.0/common
-Generating C++ implementation in directory include/v2.0/minimal
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/minimal
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/minimal
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/development
 [ 95%] Built target ASLUAV.xml-v2.0
-[ 95%] Built target paparazzi.xml-v2.0
-[ 95%] Built target development.xml-v2.0
-Generating C implementation in directory include/v2.0/development
-Generating C++ implementation in directory include/v2.0/uAvionix
-Generating C++ implementation in directory include/v2.0/icarous
-Generating C++ implementation in directory include/v2.0/minimal
-Generating C++ implementation in directory include/v2.0/minimal
-Generating C implementation in directory include/v2.0/icarous
-Generating C++ implementation in directory include/v2.0/minimal
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
 Generating C implementation in directory include/v2.0/minimal
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/development
+[ 95%] Built target ualberta.xml-v2.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/icarous
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/minimal
 Generating C implementation in directory include/v2.0/python_array_test
 Generating C++ implementation in directory include/v2.0/minimal
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C implementation in directory include/v2.0/standard
 Generating C implementation in directory include/v2.0/test
-[ 95%] Built target uAvionix.xml-v2.0
 Generating C implementation in directory include/v2.0/ualberta
-[ 95%] Built target ardupilotmega.xml-v2.0
 Generating C implementation in directory include/v2.0/uAvionix
 [ 95%] Built target matrixpilot.xml-v2.0
 Generating C implementation in directory include/v2.0/storm32
-[ 95%] Built target standard.xml-v2.0
+Generating C++ implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/AVSSUAS
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/all
 Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 95%] Built target standard.xml-v2.0
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 95%] Built target paparazzi.xml-v2.0
+[ 95%] Built target development.xml-v2.0
+[ 95%] Built target uAvionix.xml-v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 95%] Built target ardupilotmega.xml-v2.0
 Generating C++ implementation in directory include/v2.0/development
 Generating C++ implementation in directory include/v2.0/icarous
 Generating C++ implementation in directory include/v2.0/minimal

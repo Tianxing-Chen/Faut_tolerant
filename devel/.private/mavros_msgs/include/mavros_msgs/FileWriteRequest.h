@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -37,13 +37,13 @@ struct FileWriteRequest_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _file_path_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _file_path_type;
   _file_path_type file_path;
 
    typedef uint64_t _offset_type;
   _offset_type offset;
 
-   typedef std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other >  _data_type;
+   typedef std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> _data_type;
   _data_type data;
 
 
@@ -207,7 +207,7 @@ struct Printer< ::mavros_msgs::FileWriteRequest_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::mavros_msgs::FileWriteRequest_<ContainerAllocator>& v)
   {
     s << indent << "file_path: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.file_path);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.file_path);
     s << indent << "offset: ";
     Printer<uint64_t>::stream(s, indent + "  ", v.offset);
     s << indent << "data[]" << std::endl;

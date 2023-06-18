@@ -34,13 +34,14 @@
 #include <Eigen/Eigen>
 #include "filter.h"
 #include <mavros_msgs/RotorControl.h>
+#include <geometry_msgs/Vector3.h>
 
 
 #define PI 3.14159265
 
 namespace ftc
 {
-  struct QuadState
+  struct QuadState//表征的是什么坐标系下的信息？***
   {
     ros::Time timestamp;
     Eigen::Vector3d position;
@@ -49,14 +50,30 @@ namespace ftc
     Eigen::Vector3d bodyrates;
   };
 
+  /*SYSUCODE 表征期望的位姿信息*/
+  // struct QuadState1
+  // {
+  //   ros::Time timestamp;
+  //   Eigen::Vector3d position;
+  //   Eigen::Vector3d velocity;
+  // };
+
+  // struct QuadState2
+  // {
+  //   ros::Time timestamp;
+  //   Eigen::Quaterniond orientation;
+  //   Eigen::Vector3d bodyrates;
+  // };
+  /*SYSUCODE 表征期望的位姿信息*/
+
   class NDICtrl
   {
   public:
 
-    NDICtrl(const ros::NodeHandle& nh, const ros::NodeHandle& pnh);
+    NDICtrl(const ros::NodeHandle& nh, const ros::NodeHandle& pnh);//有参构造函数
     NDICtrl():
-      NDICtrl(ros::NodeHandle(), ros::NodeHandle("~")){};
-    ~NDICtrl();
+      NDICtrl(ros::NodeHandle(), ros::NodeHandle("~")){};//默认构造函数委托有参构造实现
+    ~NDICtrl();//析构函数
 
   private:
 
@@ -68,7 +85,12 @@ namespace ftc
     ros::Subscriber stop_rotors_sub_;
     ros::Subscriber yaw_rate_sub_;
     ros::Subscriber joy_sub_;
+    ros::Subscriber accel_;
     ros::Publisher motor_command_pub_;
+
+    /*SYSUCODE*/
+    // ros::Publisher pos_design_pub_;
+    /*SYSUCODE*/
 
     ros::Publisher asmc_command_pub_; 
 
@@ -81,6 +103,9 @@ namespace ftc
     sensor_msgs::Joy joy_msg_;
 
     QuadState state_;
+    /*SYSUCODE*/
+    // QuadState1 pos_design_msg_;
+    /*SYSUCODE*/
 
     int kMinMotCom_DShot_;
     int kMaxMotCom_DShot_;
@@ -90,7 +115,7 @@ namespace ftc
     double ctrl_rate_;
     double time_traj_update_;
     static constexpr double g_=9.81;
-    Eigen::Vector3d g_vect_=Eigen::Vector3d(0.0,0.0, -g_);
+    Eigen::Vector3d g_vect_=Eigen::Vector3d(0.0,0.0, -g_);//程序的惯性系z轴向上
     double nx_b_=0;     
     double ny_b_=0;
     double n_primary_axis_;  
@@ -105,6 +130,7 @@ namespace ftc
     Eigen::Vector3d nb_err_int_;
     Eigen::Vector3d pos_err_int_;   
     Eigen::Vector3d a_des_;
+    Eigen::Vector3d a_outloop_;
     Eigen::Matrix4d G_inv_;
     Eigen::Vector4d thrust_;
     Eigen::Vector3d pos_design_;
@@ -136,7 +162,7 @@ namespace ftc
     bool joy_called_  = false;
     bool manual_mode_ = false;
     bool kill_mode_   = false;
-    bool failure_mode_= false;
+    bool failure_mode_= false; //初始化failure_mode为false
 
     Eigen::Vector3d pos_filtered_notch_;
     Eigen::Vector3d vel_filtered_notch_;    
@@ -152,6 +178,9 @@ namespace ftc
     void stopRotorsCallback (const std_msgs::Empty::ConstPtr& msg);
     void controlUpdateCallback(const ros::TimerEvent&);
     void joyCallback(const sensor_msgs::JoyConstPtr msg);
+
+    void accelCallback(const geometry_msgs::Vector3& msg);
+
     void stateUpdateCallback(const quad_msgs::QuadStateEstimate::ConstPtr& msg);
     void headingCallback(const std_msgs::Float64ConstPtr& msg);
     void referenceUpdateCallback(const geometry_msgs::PointConstPtr& msg);

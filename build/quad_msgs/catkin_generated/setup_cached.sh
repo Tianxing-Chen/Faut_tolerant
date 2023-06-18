@@ -9,5 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/chen/fault_tolerant_control/devel/.private/quad_msgs:$CMAKE_PREFIX_PATH"
 export PWD='/home/chen/fault_tolerant_control/build/quad_msgs'
+export PYTHONPATH="/home/chen/fault_tolerant_control/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/chen/fault_tolerant_control/devel/.private/quad_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/chen/fault_tolerant_control/src/quad_msgs:$ROS_PACKAGE_PATH"

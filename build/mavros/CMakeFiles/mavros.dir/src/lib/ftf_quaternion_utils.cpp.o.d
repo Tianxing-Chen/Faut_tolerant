@@ -910,13 +910,7 @@ CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o: \
  /usr/include/log4cxx/helpers/classregistration.h \
  /opt/ros/melodic/include/rosconsole/macros_generated.h \
  /opt/ros/melodic/include/ros/static_assert.h \
- /opt/ros/melodic/include/sensor_msgs/Imu.h \
- /opt/ros/melodic/include/ros/types.h \
- /opt/ros/melodic/include/ros/serialization.h \
- /opt/ros/melodic/include/ros/roscpp_serialization_macros.h \
- /opt/ros/melodic/include/ros/serialized_message.h \
- /usr/include/boost/shared_array.hpp \
- /usr/include/boost/smart_ptr/shared_array.hpp /usr/include/c++/7/memory \
+ /opt/ros/melodic/include/sensor_msgs/Imu.h /usr/include/c++/7/memory \
  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
  /usr/include/c++/7/ext/concurrence.h \
  /usr/include/c++/7/bits/unique_ptr.h \
@@ -926,6 +920,12 @@ CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o: \
  /usr/include/c++/7/bits/atomic_base.h \
  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
  /usr/include/c++/7/backward/auto_ptr.h \
+ /opt/ros/melodic/include/ros/types.h \
+ /opt/ros/melodic/include/ros/serialization.h \
+ /opt/ros/melodic/include/ros/roscpp_serialization_macros.h \
+ /opt/ros/melodic/include/ros/serialized_message.h \
+ /usr/include/boost/shared_array.hpp \
+ /usr/include/boost/smart_ptr/shared_array.hpp \
  /usr/include/boost/checked_delete.hpp \
  /usr/include/boost/core/checked_delete.hpp \
  /usr/include/boost/smart_ptr/shared_ptr.hpp \

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -43,13 +43,13 @@ struct Actuators_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _angles_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _angles_type;
   _angles_type angles;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _angular_velocities_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _angular_velocities_type;
   _angular_velocities_type angular_velocities;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _normalized_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _normalized_type;
   _normalized_type normalized;
 
 

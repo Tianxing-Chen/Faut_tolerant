@@ -11,10 +11,10 @@
 
   <group ns="$(arg mav_name)">
     <node pkg="ftc_ctrl" name="ftc_ctrl" type="ftc_ctrl" output="screen" >
-        <rosparam file="$(find ftc_ctrl)/parameters/simulation.yaml"/>
+        <rosparam file="$(find ftc_ctrl)/parameters/setup_test.yaml"/>
     </node>
     <node pkg="rotors_interface" name="rotors_interface" type="rotors_interface" output="screen">
-        <rosparam file="$(find ftc_ctrl)/parameters/simulation.yaml"/>
+        <rosparam file="$(find ftc_ctrl)/parameters/setup_test.yaml"/>
     </node>
   </group>
      <node pkg="offboard" name="rotor_control_test" type="rotor_control_test" />

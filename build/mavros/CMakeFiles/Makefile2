@@ -2311,7 +2311,6 @@ CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/mavros.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_py.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/uuid_msgs_generate_messages_cpp.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/uuid_msgs_generate_messages_eus.dir/all
@@ -2339,6 +2338,7 @@ CMakeFiles/mavros.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/
 CMakeFiles/mavros.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
@@ -2366,7 +2366,7 @@ CMakeFiles/mavros.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_cpp.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_eus.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
+CMakeFiles/mavros.dir/all: CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
 CMakeFiles/mavros.dir/all: CMakeFiles/std_srvs_generate_messages_py.dir/all

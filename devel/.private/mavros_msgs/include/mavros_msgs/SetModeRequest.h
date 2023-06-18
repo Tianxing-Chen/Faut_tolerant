@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -38,7 +38,7 @@ struct SetModeRequest_
    typedef uint8_t _base_mode_type;
   _base_mode_type base_mode;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _custom_mode_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _custom_mode_type;
   _custom_mode_type custom_mode;
 
 
@@ -283,7 +283,7 @@ struct Printer< ::mavros_msgs::SetModeRequest_<ContainerAllocator> >
     s << indent << "base_mode: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.base_mode);
     s << indent << "custom_mode: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.custom_mode);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.custom_mode);
   }
 };
 

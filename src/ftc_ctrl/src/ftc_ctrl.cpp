@@ -23,25 +23,25 @@
 using namespace std;
 
 
-namespace ftc {
+namespace ftc {//主函数在哪里？***
   NDICtrl::NDICtrl
-  (const ros::NodeHandle& nh, const ros::NodeHandle& pnh){
+  (const ros::NodeHandle& nh, const ros::NodeHandle& pnh){//构造函数，里面的函数按顺序执行
     nh_ = nh;
     pnh_ = pnh;
 
     // Fetch parameters
     ROS_INFO("[%s] Initializing...!", pnh_.getNamespace().c_str());
     if (!loadParams())  {
-      ROS_ERROR("[%s] Could not load parameters.",
+      ROS_ERROR("[%s] Could not load parameters.",//如果赋值不成功则关闭节点
         pnh_.getNamespace().c_str());
       ros::shutdown();
       return;
     }
     ROS_INFO("[%s] Parameters loaded",
-      ros::this_node::getName().c_str());    
-    armed_out_.data = false;
+      ros::this_node::getName().c_str());    //赋值成功并打印此节点的完全限定命名空间
+    armed_out_.data = false; //初始化armed_out_为false
 
-    control_timer_    = nh_.createTimer(ros::Duration(1.0/ctrl_rate_), &NDICtrl::controlUpdateCallback, this);
+    control_timer_    = nh_.createTimer(ros::Duration(1.0/ctrl_rate_), &NDICtrl::controlUpdateCallback, this);//定时器，按照设定频率定时回调
     start_rotors_sub_ = nh_.subscribe("start_rotors", 1, &NDICtrl::startRotorsCallback, this);
     stop_rotors_sub_  = nh_.subscribe("stop_rotors", 1, &NDICtrl::stopRotorsCallback, this);
     state_est_sub_    = nh_.subscribe("state_est", 1, &NDICtrl::stateUpdateCallback, this);
@@ -49,9 +49,17 @@ namespace ftc {
     yaw_rate_sub_     = nh_.subscribe("heading_design", 1, &NDICtrl::headingCallback, this );
     joy_sub_          = nh_.subscribe("joy", 1, &NDICtrl::joyCallback, this );
 
+    accel_          = nh_.subscribe("accel_control", 1, &NDICtrl::accelCallback, this );
+
+
+
     motor_command_pub_ = nh_.advertise<quad_msgs::ControlCommand>("control_command", 1); 
     arm_pub_      = nh_.advertise<std_msgs::Bool>("control_active", 1);
     kill_pub_     = nh_.advertise<std_msgs::Empty>("emergency_kill", 1);
+
+    /*SYSUCODE*/
+    // pos_design_pub_ =  nh_.advertise<quad_msgs::QuadStateEstimate>("pos_design", 1); 
+    /*SYSUCODE*/
 
     yaw_rate_err_int_ = 0.0;
     motor_command_msg_.control_mode = 3;
@@ -69,7 +77,7 @@ namespace ftc {
                 0.0,  Iy_,  0.0,
                 0.0,  0.0,  Iz_;
 
-    pos_design_ << 0.0, 0.0, -1.0;
+    pos_design_ << 0.0, 0.0, -1.0; //设定位置，程序的惯性坐标系z轴向下
 
     time_fail_ = 0.0;
     time_traj_update_ = 0.0;
@@ -85,33 +93,33 @@ namespace ftc {
 
   NDICtrl::~NDICtrl(){}
 
-/*问题：G是怎么计算的*/
+  /*问题：G是怎么计算的*/
   void NDICtrl::calculateControlEffectiveness() {    
   
-    Eigen::Matrix4d G;
-
-    G <<   lever_arm_y_[0]  + cg_bias_[0],   lever_arm_y_[1] + cg_bias_[1],  lever_arm_y_[2] + cg_bias_[1],   lever_arm_y_[3] + cg_bias_[1],
+    Eigen::Matrix4d G;//与论文有差异，将T放到了最后一位
+    //第一项应为cg_bias[1]，github源码有误
+    G <<   lever_arm_y_[0]  + cg_bias_[1],   lever_arm_y_[1] + cg_bias_[1],  lever_arm_y_[2] + cg_bias_[1],   lever_arm_y_[3] + cg_bias_[1],
            -lever_arm_x_[0] - cg_bias_[0],   -lever_arm_x_[1] - cg_bias_[0], -lever_arm_x_[2] - cg_bias_[0],  -lever_arm_x_[3] - cg_bias_[0],
            drag_coeff_[0],  drag_coeff_[1],  drag_coeff_[2],  drag_coeff_[3],
            1.0, 1.0, 1.0, 1.0;
-    G_inv_ = Eigen::MatrixXd::Zero(4,4);
+    G_inv_ = Eigen::MatrixXd::Zero(4,4);//初始化G的逆矩阵
 
-    //
+    //判断f_id是否正常
     if (f_id_ > -1 && f_id_ < 4) {
       Eigen::MatrixXd G3_tmp(3,4);
       G3_tmp << G.row(0),
                 G.row(1),
                 G.row(3);
-      Eigen::Matrix3d G3;
+      Eigen::Matrix3d G3;//去掉了taoz
 
       size_t j=0;
       for (size_t i=0; i<4; i++) {
         if(i != f_id_) {
-          G3.col(j) << G3_tmp.col(i);
+          G3.col(j) << G3_tmp.col(i);//去掉了失效的项
           j++ ;
         }
       }
-      Eigen::Matrix3d G3_inv = G3.inverse();
+      Eigen::Matrix3d G3_inv = G3.inverse();//G3求逆
       
       Eigen::MatrixXd G_tmp = Eigen::MatrixXd::Zero(4,3);
       if(f_id_ > -1) {
@@ -122,16 +130,16 @@ namespace ftc {
       }  
 
       G_inv_.leftCols(2) = G_tmp.leftCols(2);
-      G_inv_.rightCols(1) = G_tmp.rightCols(1);
+      G_inv_.rightCols(1) = G_tmp.rightCols(1);//此时G的逆矩阵相当于G3把失效的项行列补零
     }
     else {
-      G_inv_ = G.inverse(); 
+      G_inv_ = G.inverse(); //f_id有错则直接求逆
     }
   }
 /* 开始正常的的飞行 */
   void NDICtrl::startRotorsCallback
-  (const std_msgs::Empty::ConstPtr& msg)  {
-    armed_out_.data = true;
+  (const std_msgs::Empty::ConstPtr& msg)  { //std_msgs::Empty为package_name  ConstPtr为type_name  均要与发表消息时的保持一致
+    armed_out_.data = true;  //只要调用了startrotor函数armed_out为true
   }
 
   void NDICtrl::stopRotorsCallback
@@ -151,7 +159,7 @@ namespace ftc {
       joy_called_ = true;
 
     if (!manual_mode_)
-      manual_mode_ = static_cast<bool>(joy_msg_.buttons[5]);
+      manual_mode_ = static_cast<bool>(joy_msg_.buttons[5]);//强制类型转换后判断buttons第6位是否为真
       
     if (!kill_mode_)
       kill_mode_ = static_cast<bool>(joy_msg_.buttons[4]);
@@ -164,9 +172,9 @@ namespace ftc {
     }
 
     if(!use_vio_) {
-      use_vio_ =   static_cast<bool>(joy_msg_.buttons[3]);
+      use_vio_ =   static_cast<bool>(joy_msg_.buttons[3]);//如果没开us_vio则判断第4位
 
-      if (use_vio_) {
+      if (use_vio_) {//如果打开了则用当前位置信息xy更新期望位置信息xy
         pos_design_(0) = pos_design_current_position_.x();
         pos_design_(1) = pos_design_current_position_.y();
       }
@@ -174,16 +182,27 @@ namespace ftc {
       
   }
 
+ void NDICtrl::accelCallback(const geometry_msgs::Vector3& msg)  {
+    
+    a_outloop_(0) = msg.x;
+    a_outloop_(1) = msg.y;
+    a_outloop_(2) = msg.z;
+
+    // ROS_INFO("aaaaaaaaccelCallbackaaaaaaaa is %f %f %f", msg.x, msg.y, msg.z);
+  }
+
+
+
   void NDICtrl::failIdCallback()  {
 
-    f_id_ = failure_id_;
-    double lever_arm = std::sqrt(lever_arm_x_[f_id_]*lever_arm_x_[f_id_]+lever_arm_y_[f_id_]*lever_arm_y_[f_id_]);
-    nx_b_ = - n_primary_axis_ * lever_arm_x_[f_id_] / lever_arm;
-    ny_b_ = - n_primary_axis_ * lever_arm_y_[f_id_] / lever_arm;
+    f_id_ = failure_id_; //将failure_id赋值给f_id
+    double lever_arm = std::sqrt(lever_arm_x_[f_id_]*lever_arm_x_[f_id_]+lever_arm_y_[f_id_]*lever_arm_y_[f_id_]);//计算质心到坏点力臂长度
+    nx_b_ = - n_primary_axis_ * lever_arm_x_[f_id_] / lever_arm;//n_primary_axis是 x-y 平面上的投影
+    ny_b_ = - n_primary_axis_ * lever_arm_y_[f_id_] / lever_arm;//nx_b和ny_b是n_primary_axis分别在x和y方向上的投影
     
-    time_fail_ = ros::Time::now().toNSec();
+    time_fail_ = ros::Time::now().toNSec();//记录损坏时间
 
-    calculateControlEffectiveness();
+    calculateControlEffectiveness();//计算控制性能
   }
 
   void NDICtrl::headingCallback
@@ -194,30 +213,30 @@ namespace ftc {
 
   void NDICtrl::stateUpdateCallback(const quad_msgs::QuadStateEstimate::ConstPtr& msg)  {       
      
-      if(estimation_received_ == false)
+      if(estimation_received_ == false) //调用stateupdatecallback函数后estimation为true
         estimation_received_ = true;
       
-      state_.timestamp = msg->header.stamp;
+      state_.timestamp = msg->header.stamp;//更新时间戳
 
-      state_.position.x()     =   msg->position.x;     
+      state_.position.x()     =   msg->position.x;     //更新位置
       state_.position.y()     =   msg->position.y;     
       state_.position.z()     =   msg->position.z;     
 
-      state_.velocity.x()     =   msg->velocity.x;     
+      state_.velocity.x()     =   msg->velocity.x;     //更新线速度
       state_.velocity.y()     =   msg->velocity.y; 
       state_.velocity.z()     =   msg->velocity.z;         
 
-      pos_design_current_position_.x() = msg->position.x;
+      pos_design_current_position_.x() = msg->position.x;//与vio有关
       pos_design_current_position_.y() = msg->position.y;     
 
-      state_.orientation.x()  =   msg->orientation.x;    
+      state_.orientation.x()  =   msg->orientation.x;    //更新姿态
       state_.orientation.y()  =   msg->orientation.y;    
       state_.orientation.z()  =   msg->orientation.z;          
       state_.orientation.w()  =   msg->orientation.w;          
 
-      state_.bodyrates.x()    =   msg->bodyrates.x;        
+      state_.bodyrates.x()    =   msg->bodyrates.x;      //更新角速度
       state_.bodyrates.y()    =   msg->bodyrates.y;        
-      state_.bodyrates.z()    =   msg->bodyrates.z;      
+      state_.bodyrates.z()    =   msg->bodyrates.z;   
   }
 
   void NDICtrl::referenceUpdateCallback(const geometry_msgs::PointConstPtr& msg)  {
@@ -236,9 +255,16 @@ namespace ftc {
 
   void NDICtrl::controlUpdateCallback(const ros::TimerEvent&)  {
     
-    if (armed_out_.data && estimation_received_)
-        arm_pub_.publish(armed_out_); 
-    else return;
+    if (armed_out_.data && estimation_received_) //经过startrotor函数和stateupdate函数后两个条件都满足
+    {
+      arm_pub_.publish(armed_out_);//只有当armed_out和estimation_received同时为true时才会pub
+      // ROS_INFO("estimation received");
+    }
+    else //否则直接return
+    {
+      // ROS_WARN("estimation do not received %d %d", armed_out_.data, estimation_received_);
+      return;
+    }
 
     if (kill_mode_) {
       std_msgs::Empty emsg;
@@ -261,40 +287,41 @@ namespace ftc {
 
   void NDICtrl::sendMotorCommand()  {
     int throttle[4];
-
+    // thrust_={1.2,1.5,1.8,2.0};
     for (int i=0; i<thrust_.size();i++) {
-      limit(thrust_(i), 0.0, 8.0);
-      throttle[i] = static_cast<int>((-coeff2_ + sqrt(coeff2_ * coeff2_ - 4.0 * coeff1_ * (coeff3_ - thrust_(i)))) / (2.0 * coeff1_));
+      limit(thrust_(i), 0.0, 8.0);//限制每个旋翼升力
+      throttle[i] = static_cast<int>((-coeff2_ + sqrt(coeff2_ * coeff2_ - 4.0 * coeff1_ * (coeff3_ - thrust_(i)))) / (2.0 * coeff1_));//每个旋翼PWM值
       // limit(throttle[i], kMinMotCom_DShot_, kMaxMotCom_DShot_);
-      limit(throttle[i], 900, 2000);
+      limit(throttle[i], 900, 2000);//PWM值限幅
       motor_command_msg_.mot_throttle[i] = throttle[i];
       motor_command_msg_.rotor_thrust[i] = thrust_(i);
     } 
 
     if (f_id_>=0 && f_id_ <=3) {
       throttle[f_id_] = 0;
-      motor_command_msg_.mot_throttle[f_id_] = 0;
-      motor_command_msg_.rotor_thrust[f_id_] = 0.0;
+      motor_command_msg_.mot_throttle[f_id_] = 0;//失效旋翼PWM值为0
+      motor_command_msg_.rotor_thrust[f_id_] = 0.0;//失效旋翼升力为0
     }
      
-     motor_command_pub_.publish(motor_command_msg_);
+    // ROS_INFO("motor_command_pub!");
+     motor_command_pub_.publish(motor_command_msg_);//发布旋翼控制信息
 
     return;
   }
 
-  void NDICtrl::controller_outerloop() {
+  void NDICtrl::controller_outerloop() {//控制外环
 
 
     // Set position control gains
-    Eigen::DiagonalMatrix<double,3> Kp_pos;
+    Eigen::DiagonalMatrix<double,3> Kp_pos;//定义三个对角矩阵，初始化位置环kp、kd、ki
     Eigen::DiagonalMatrix<double,3> Kd_pos;
     Eigen::DiagonalMatrix<double,3> Ki_pos;
     if (!failure_mode_) {
-      Kp_pos.diagonal() << Kp_pos_vec_[0], Kp_pos_vec_[1], Kp_pos_vec_[2];
+      Kp_pos.diagonal() << Kp_pos_vec_[0], Kp_pos_vec_[1], Kp_pos_vec_[2];//如果是正常情况则对角线上是正常情况pid参数
       Kd_pos.diagonal() << Kd_pos_vec_[0], Kd_pos_vec_[1], Kd_pos_vec_[2];
       Ki_pos.diagonal() << Ki_pos_vec_[0], Ki_pos_vec_[1], Ki_pos_vec_[2];
     } else {
-      Kp_pos.diagonal() << Kp_pos_vec_fail_[0], Kp_pos_vec_fail_[1], Kp_pos_vec_fail_[2];
+      Kp_pos.diagonal() << Kp_pos_vec_fail_[0], Kp_pos_vec_fail_[1], Kp_pos_vec_fail_[2];//容错工况pid参数
       Kd_pos.diagonal() << Kd_pos_vec_fail_[0], Kd_pos_vec_fail_[1], Kd_pos_vec_fail_[2];
       Ki_pos.diagonal() << Ki_pos_vec_fail_[0], Ki_pos_vec_fail_[1], Ki_pos_vec_fail_[2];
     }
@@ -317,15 +344,15 @@ namespace ftc {
     filter_vel_.update(vel_filtered_notch_, state_.velocity);
 
     if (!failure_mode_) {
-      position_used = state_.position;
+      position_used = state_.position;//如果是正常模式，则更新位置和速度
       velocity_used = state_.velocity;
     }
     else {
-      if (use_notch_filter_){
+      if (use_notch_filter_){//容错模式下开启filter
         position_used << pos_filtered_notch_(0), pos_filtered_notch_(1), pos_filtered_notch_(2);
         velocity_used << vel_filtered_notch_(0), vel_filtered_notch_(1), vel_filtered_notch_(2);        
       }
-      else
+      else//不开启filter
       {
         position_used << state_.position(0), state_.position(1), state_.position(2);
         velocity_used << state_.velocity(0), state_.velocity(1), state_.velocity(2);
@@ -340,7 +367,19 @@ namespace ftc {
     if (!sigmoid_traj_ || (time<0)) {
       Eigen::Vector3d pos_err = (pos_design_ - position_used);
       integrator3(pos_err, pos_err_int_, 1.0/ctrl_rate_, max_pos_err_int_);
-      a_des_ = Kp_pos * pos_err - Kd_pos * velocity_used + Ki_pos * pos_err_int_ - g_vect_;
+      // a_des_ = Kp_pos * pos_err - Kd_pos * velocity_used + Ki_pos * pos_err_int_ - g_vect_;
+      a_des_ = a_outloop_ - g_vect_;
+
+      // ROS_INFO(aaaaaaaaaaaaaaa"%f", pos_design_(0));
+      // ROS_INFO("aaaaapos_design is %f %f %f",a_des_(0), a_des_(1), a_des_(2));
+
+      /*SYSUCODE 更新pos_design_msg_*/
+      // pos_design_msg_.timestamp = state_.timestamp;
+      // pos_design_msg_.position.x() = pos_design_(0);
+      // pos_design_msg_.position.y() = pos_design_(1);
+      // pos_design_msg_.position.z() = pos_design_(2);
+      // pos_design_pub_.publish(pos_design_msg_);
+      /*SYSUCODE 更新pos_design_msg_*/
     }
     else {
       Eigen::Vector3d pos_des, vel_des, acc_des;
@@ -351,13 +390,28 @@ namespace ftc {
       pos_des(2) = pos_design_(2);
       vel_des(2) = 0.0;
       acc_des(2) = 0.0;
+      // ROS_INFO("pos_design is %f %f %f",pos_des(0), pos_des(1), pos_des(2));
 
       Eigen::Vector3d pos_err = (pos_des - position_used);      
       integrator3(pos_err, pos_err_int_, 1.0/ctrl_rate_, max_pos_err_int_);
 
-      a_des_ = acc_des + Kd_pos * (vel_des - velocity_used) 
-                + Kp_pos * pos_err  + Ki_pos * pos_err_int_ - g_vect_;            
+      // a_des_ = acc_des + Kd_pos * (vel_des - velocity_used) 
+                // + Kp_pos * pos_err  + Ki_pos * pos_err_int_ - g_vect_;  
+      a_des_ = a_outloop_ - g_vect_;
+
+      /*SYSUCODE 更新pos_design_msg_*/
+      // pos_design_msg_.header = state_.timestamp;
+      // pos_design_msg_.position.x = pos_des(0);
+      // pos_design_msg_.position.y = pos_des(1);
+      // pos_design_msg_.position.z = pos_des(2);
+      // pos_design_msg_.velocity.x = vel_des(0);
+      // pos_design_msg_.velocity.y = vel_des(1);
+      // pos_design_msg_.velocity.z = vel_des(2);
+      // pos_design_pub_.publish(pos_design_msg_);
+      /*SYSUCODE 更新pos_design_msg_*/          
     }
+
+    // ROS_INFO("pos_design is %f %f %f",pos_design_(0), pos_design_(1), pos_design_(2));
 
     // acceleration command hedging
     if(use_vio_) { 
@@ -477,9 +531,9 @@ namespace ftc {
   };
 
   bool NDICtrl::loadParams() {
-    bool check = true;
+    bool check = true;//检查是否赋值成功
 
-    check &= pnh_.param("ctrl_rate"  , ctrl_rate_,  200.0);
+    check &= pnh_.param("ctrl_rate"  , ctrl_rate_,  200.0);//有则赋yaml文件值，没有则赋默认值
     check &= pnh_.param("failed_prop", failure_id_, 0);
     check &= pnh_.param("mass",       m_,          0.5); 
     check &= pnh_.param("n_primary_axis",  n_primary_axis_,  0.0);
@@ -498,7 +552,7 @@ namespace ftc {
     check &= pnh_.param("Ix",         Ix_,         1.45e-3);
     check &= pnh_.param("Iy",         Iy_,         1.26e-3);
     check &= pnh_.param("Iz",         Iz_,         2.52e-3);
-    check &= pnh_.getParam("lever_arm_x",   lever_arm_x_);
+    check &= pnh_.getParam("lever_arm_x",   lever_arm_x_);//从yaml文件取值
     check &= pnh_.getParam("lever_arm_y",   lever_arm_y_);
     check &= pnh_.getParam("drag_coeff",    drag_coeff_);
     check &= pnh_.getParam("cg_bias",    cg_bias_);
@@ -546,10 +600,10 @@ namespace ftc {
 
 
   void NDICtrl::sigmoidTraj(const double pos_end, const double pos_begin,
-                           double& pos_des, double& vel_des, double& acc_des, double time)  {
+                           double& pos_des, double& vel_des, double& acc_des, double time)  {//平滑函数，更新位置期望、速度期望、加速度期望
     double a, b, c, tend;
 
-    a = pos_end - pos_begin;
+    a = pos_end - pos_begin;//位置差
 
     tend = std::abs(a) / 0.2; // manual designed
     if (tend < 1.0)

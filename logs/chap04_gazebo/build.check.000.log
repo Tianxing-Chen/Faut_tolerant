@@ -1,0 +1,1 @@
+/usr/bin/cmake -S/home/chen/fault_tolerant_control/src/chap04_gazebo -B/home/chen/fault_tolerant_control/build/chap04_gazebo --check-build-system CMakeFiles/Makefile.cmake 0

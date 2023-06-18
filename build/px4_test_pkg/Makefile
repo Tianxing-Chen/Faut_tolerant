@@ -757,6 +757,266 @@ nav_msgs_generate_messages_py/fast:
 .PHONY : nav_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named mavros_msgs_generate_messages_cpp
+
+# Build rule for target.
+mavros_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mavros_msgs_generate_messages_cpp
+.PHONY : mavros_msgs_generate_messages_cpp
+
+# fast build rule for target.
+mavros_msgs_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
+.PHONY : mavros_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named mavros_msgs_generate_messages_eus
+
+# Build rule for target.
+mavros_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mavros_msgs_generate_messages_eus
+.PHONY : mavros_msgs_generate_messages_eus
+
+# fast build rule for target.
+mavros_msgs_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
+.PHONY : mavros_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mavros_msgs_generate_messages_lisp
+
+# Build rule for target.
+mavros_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mavros_msgs_generate_messages_lisp
+.PHONY : mavros_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mavros_msgs_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
+.PHONY : mavros_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named mavros_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mavros_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mavros_msgs_generate_messages_nodejs
+.PHONY : mavros_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mavros_msgs_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
+.PHONY : mavros_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named mavros_msgs_generate_messages_py
+
+# Build rule for target.
+mavros_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mavros_msgs_generate_messages_py
+.PHONY : mavros_msgs_generate_messages_py
+
+# fast build rule for target.
+mavros_msgs_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make CMakeFiles/mavros_msgs_generate_messages_py.dir/build
+.PHONY : mavros_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named geographic_msgs_generate_messages_cpp
+
+# Build rule for target.
+geographic_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geographic_msgs_generate_messages_cpp
+.PHONY : geographic_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geographic_msgs_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
+.PHONY : geographic_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geographic_msgs_generate_messages_eus
+
+# Build rule for target.
+geographic_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geographic_msgs_generate_messages_eus
+.PHONY : geographic_msgs_generate_messages_eus
+
+# fast build rule for target.
+geographic_msgs_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
+.PHONY : geographic_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named geographic_msgs_generate_messages_lisp
+
+# Build rule for target.
+geographic_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geographic_msgs_generate_messages_lisp
+.PHONY : geographic_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geographic_msgs_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
+.PHONY : geographic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geographic_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geographic_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geographic_msgs_generate_messages_nodejs
+.PHONY : geographic_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geographic_msgs_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
+.PHONY : geographic_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geographic_msgs_generate_messages_py
+
+# Build rule for target.
+geographic_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geographic_msgs_generate_messages_py
+.PHONY : geographic_msgs_generate_messages_py
+
+# fast build rule for target.
+geographic_msgs_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make CMakeFiles/geographic_msgs_generate_messages_py.dir/build
+.PHONY : geographic_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named uuid_msgs_generate_messages_cpp
+
+# Build rule for target.
+uuid_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uuid_msgs_generate_messages_cpp
+.PHONY : uuid_msgs_generate_messages_cpp
+
+# fast build rule for target.
+uuid_msgs_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
+.PHONY : uuid_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uuid_msgs_generate_messages_eus
+
+# Build rule for target.
+uuid_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uuid_msgs_generate_messages_eus
+.PHONY : uuid_msgs_generate_messages_eus
+
+# fast build rule for target.
+uuid_msgs_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
+.PHONY : uuid_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named uuid_msgs_generate_messages_lisp
+
+# Build rule for target.
+uuid_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uuid_msgs_generate_messages_lisp
+.PHONY : uuid_msgs_generate_messages_lisp
+
+# fast build rule for target.
+uuid_msgs_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
+.PHONY : uuid_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named uuid_msgs_generate_messages_nodejs
+
+# Build rule for target.
+uuid_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uuid_msgs_generate_messages_nodejs
+.PHONY : uuid_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+uuid_msgs_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
+.PHONY : uuid_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named uuid_msgs_generate_messages_py
+
+# Build rule for target.
+uuid_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uuid_msgs_generate_messages_py
+.PHONY : uuid_msgs_generate_messages_py
+
+# fast build rule for target.
+uuid_msgs_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make CMakeFiles/uuid_msgs_generate_messages_py.dir/build
+.PHONY : uuid_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named px4_test_pkg_generate_messages
 
 # Build rule for target.
@@ -1102,11 +1362,21 @@ help:
 	@echo "... clean_test_results"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
+	@echo "... geographic_msgs_generate_messages_cpp"
+	@echo "... geographic_msgs_generate_messages_eus"
+	@echo "... geographic_msgs_generate_messages_lisp"
+	@echo "... geographic_msgs_generate_messages_nodejs"
+	@echo "... geographic_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... mavros_msgs_generate_messages_cpp"
+	@echo "... mavros_msgs_generate_messages_eus"
+	@echo "... mavros_msgs_generate_messages_lisp"
+	@echo "... mavros_msgs_generate_messages_nodejs"
+	@echo "... mavros_msgs_generate_messages_py"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_lisp"
@@ -1134,6 +1404,11 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... run_tests"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -1145,6 +1420,11 @@ help:
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... uuid_msgs_generate_messages_cpp"
+	@echo "... uuid_msgs_generate_messages_eus"
+	@echo "... uuid_msgs_generate_messages_lisp"
+	@echo "... uuid_msgs_generate_messages_nodejs"
+	@echo "... uuid_msgs_generate_messages_py"
 	@echo "... console"
 	@echo "... controller"
 	@echo "... controller_node"

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -99,7 +99,7 @@ struct VehicleInfo_
    typedef uint32_t _custom_mode_type;
   _custom_mode_type custom_mode;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _mode_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _mode_type;
   _mode_type mode;
 
    typedef uint32_t _mode_id_type;
@@ -120,7 +120,7 @@ struct VehicleInfo_
    typedef uint32_t _board_version_type;
   _board_version_type board_version;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _flight_custom_version_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _flight_custom_version_type;
   _flight_custom_version_type flight_custom_version;
 
    typedef uint16_t _vendor_id_type;
@@ -400,7 +400,7 @@ struct Printer< ::mavros_msgs::VehicleInfo_<ContainerAllocator> >
     s << indent << "custom_mode: ";
     Printer<uint32_t>::stream(s, indent + "  ", v.custom_mode);
     s << indent << "mode: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.mode);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.mode);
     s << indent << "mode_id: ";
     Printer<uint32_t>::stream(s, indent + "  ", v.mode_id);
     s << indent << "capabilities: ";
@@ -414,7 +414,7 @@ struct Printer< ::mavros_msgs::VehicleInfo_<ContainerAllocator> >
     s << indent << "board_version: ";
     Printer<uint32_t>::stream(s, indent + "  ", v.board_version);
     s << indent << "flight_custom_version: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.flight_custom_version);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.flight_custom_version);
     s << indent << "vendor_id: ";
     Printer<uint16_t>::stream(s, indent + "  ", v.vendor_id);
     s << indent << "product_id: ";

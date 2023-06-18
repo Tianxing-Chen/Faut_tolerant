@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -38,7 +38,7 @@ struct FileListResponse_
 
 
 
-   typedef std::vector< ::mavros_msgs::FileEntry_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mavros_msgs::FileEntry_<ContainerAllocator> >::other >  _list_type;
+   typedef std::vector< ::mavros_msgs::FileEntry_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mavros_msgs::FileEntry_<ContainerAllocator> >> _list_type;
   _list_type list;
 
    typedef uint8_t _success_type;

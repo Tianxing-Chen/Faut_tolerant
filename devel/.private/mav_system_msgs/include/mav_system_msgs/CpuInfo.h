@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -42,10 +42,10 @@ struct CpuInfo_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _cpu_percent_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _cpu_percent_type;
   _cpu_percent_type cpu_percent;
 
-   typedef std::vector< ::mav_system_msgs::ProcessInfo_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mav_system_msgs::ProcessInfo_<ContainerAllocator> >::other >  _heaviest_processes_type;
+   typedef std::vector< ::mav_system_msgs::ProcessInfo_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mav_system_msgs::ProcessInfo_<ContainerAllocator> >> _heaviest_processes_type;
   _heaviest_processes_type heaviest_processes;
 
 

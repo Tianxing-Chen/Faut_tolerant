@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -34,7 +34,7 @@ struct Polygon2D_
 
 
 
-   typedef std::vector< ::mav_planning_msgs::Point2D_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::mav_planning_msgs::Point2D_<ContainerAllocator> >::other >  _points_type;
+   typedef std::vector< ::mav_planning_msgs::Point2D_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::mav_planning_msgs::Point2D_<ContainerAllocator> >> _points_type;
   _points_type points;
 
 

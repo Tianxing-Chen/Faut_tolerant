@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -35,7 +35,7 @@ struct RunTaskServiceRequest_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _task_name_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _task_name_type;
   _task_name_type task_name;
 
    typedef uint8_t _start_type;
@@ -196,7 +196,7 @@ struct Printer< ::mav_state_machine_msgs::RunTaskServiceRequest_<ContainerAlloca
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::mav_state_machine_msgs::RunTaskServiceRequest_<ContainerAllocator>& v)
   {
     s << indent << "task_name: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.task_name);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.task_name);
     s << indent << "start: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.start);
   }

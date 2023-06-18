@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -38,7 +38,7 @@ struct PlayTuneV2_
    typedef uint8_t _format_type;
   _format_type format;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _tune_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _tune_type;
   _tune_type tune;
 
 
@@ -219,7 +219,7 @@ struct Printer< ::mavros_msgs::PlayTuneV2_<ContainerAllocator> >
     s << indent << "format: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.format);
     s << indent << "tune: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.tune);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.tune);
   }
 };
 

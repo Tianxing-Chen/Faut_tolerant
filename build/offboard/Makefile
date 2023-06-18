@@ -1160,17 +1160,17 @@ offboard_node4/fast:
 .PHONY : offboard_node4/fast
 
 #=============================================================================
-# Target rules for targets named offboard_node1
+# Target rules for targets named offboard_node
 
 # Build rule for target.
-offboard_node1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 offboard_node1
-.PHONY : offboard_node1
+offboard_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 offboard_node
+.PHONY : offboard_node
 
 # fast build rule for target.
-offboard_node1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/build
-.PHONY : offboard_node1/fast
+offboard_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/build
+.PHONY : offboard_node/fast
 
 #=============================================================================
 # Target rules for targets named rotor_control_test
@@ -1274,29 +1274,29 @@ src/ground_station.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ground_station.dir/build.make CMakeFiles/ground_station.dir/src/ground_station.cpp.s
 .PHONY : src/ground_station.cpp.s
 
-src/offboard_node1.o: src/offboard_node1.cpp.o
-.PHONY : src/offboard_node1.o
+src/offboard_node.o: src/offboard_node.cpp.o
+.PHONY : src/offboard_node.o
 
 # target to build an object file
-src/offboard_node1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/src/offboard_node1.cpp.o
-.PHONY : src/offboard_node1.cpp.o
+src/offboard_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/src/offboard_node.cpp.o
+.PHONY : src/offboard_node.cpp.o
 
-src/offboard_node1.i: src/offboard_node1.cpp.i
-.PHONY : src/offboard_node1.i
+src/offboard_node.i: src/offboard_node.cpp.i
+.PHONY : src/offboard_node.i
 
 # target to preprocess a source file
-src/offboard_node1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/src/offboard_node1.cpp.i
-.PHONY : src/offboard_node1.cpp.i
+src/offboard_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/src/offboard_node.cpp.i
+.PHONY : src/offboard_node.cpp.i
 
-src/offboard_node1.s: src/offboard_node1.cpp.s
-.PHONY : src/offboard_node1.s
+src/offboard_node.s: src/offboard_node.cpp.s
+.PHONY : src/offboard_node.s
 
 # target to generate assembly for a file
-src/offboard_node1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node1.dir/build.make CMakeFiles/offboard_node1.dir/src/offboard_node1.cpp.s
-.PHONY : src/offboard_node1.cpp.s
+src/offboard_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offboard_node.dir/build.make CMakeFiles/offboard_node.dir/src/offboard_node.cpp.s
+.PHONY : src/offboard_node.cpp.s
 
 src/offboard_node4.o: src/offboard_node4.cpp.o
 .PHONY : src/offboard_node4.o
@@ -1439,15 +1439,15 @@ help:
 	@echo "... ground_station"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... offboard_node1"
+	@echo "... offboard_node"
 	@echo "... offboard_node4"
 	@echo "... rotor_control_test"
 	@echo "... src/ground_station.o"
 	@echo "... src/ground_station.i"
 	@echo "... src/ground_station.s"
-	@echo "... src/offboard_node1.o"
-	@echo "... src/offboard_node1.i"
-	@echo "... src/offboard_node1.s"
+	@echo "... src/offboard_node.o"
+	@echo "... src/offboard_node.i"
+	@echo "... src/offboard_node.s"
 	@echo "... src/offboard_node4.o"
 	@echo "... src/offboard_node4.i"
 	@echo "... src/offboard_node4.s"

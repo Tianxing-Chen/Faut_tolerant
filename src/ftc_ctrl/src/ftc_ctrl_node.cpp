@@ -20,8 +20,8 @@
 int main(int argc, char **argv)
 {
     ros::init(argc, argv, "ftc_ctrl");
-    ftc::NDICtrl NDI_ctrl;
-    ros::spin();
+    ftc::NDICtrl NDI_ctrl;//默认构造函数委托有参构造实现，初始化了一个对象
+    ros::spin();//更新迭代
     
     return 0;
 }

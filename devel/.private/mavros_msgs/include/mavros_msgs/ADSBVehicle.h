@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -66,7 +66,7 @@ struct ADSBVehicle_
    typedef uint32_t _ICAO_address_type;
   _ICAO_address_type ICAO_address;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _callsign_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _callsign_type;
   _callsign_type callsign;
 
    typedef double _latitude_type;
@@ -572,7 +572,7 @@ struct Printer< ::mavros_msgs::ADSBVehicle_<ContainerAllocator> >
     s << indent << "ICAO_address: ";
     Printer<uint32_t>::stream(s, indent + "  ", v.ICAO_address);
     s << indent << "callsign: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.callsign);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.callsign);
     s << indent << "latitude: ";
     Printer<double>::stream(s, indent + "  ", v.latitude);
     s << indent << "longitude: ";

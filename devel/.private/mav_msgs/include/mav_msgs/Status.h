@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -61,16 +61,16 @@ struct Status_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _vehicle_name_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _vehicle_name_type;
   _vehicle_name_type vehicle_name;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _vehicle_type_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _vehicle_type_type;
   _vehicle_type_type vehicle_type;
 
    typedef float _battery_voltage_type;
   _battery_voltage_type battery_voltage;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _rc_command_mode_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _rc_command_mode_type;
   _rc_command_mode_type rc_command_mode;
 
    typedef uint8_t _command_interface_enabled_type;
@@ -85,13 +85,13 @@ struct Status_
    typedef float _cpu_load_type;
   _cpu_load_type cpu_load;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _motor_status_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _motor_status_type;
   _motor_status_type motor_status;
 
    typedef uint8_t _in_air_type;
   _in_air_type in_air;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _gps_status_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _gps_status_type;
   _gps_status_type gps_status;
 
    typedef int32_t _gps_num_satellites_type;
@@ -129,15 +129,15 @@ struct Status_
 #endif
 
 
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  RC_COMMAND_ATTITUDE;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  RC_COMMAND_ATTITUDE_HEIGHT;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  RC_COMMAND_POSITION;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MOTOR_STATUS_RUNNING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MOTOR_STATUS_STOPPED;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MOTOR_STATUS_STARTING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  MOTOR_STATUS_STOPPING;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  GPS_STATUS_LOCK;
-  static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  GPS_STATUS_NO_LOCK;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> RC_COMMAND_ATTITUDE;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> RC_COMMAND_ATTITUDE_HEIGHT;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> RC_COMMAND_POSITION;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MOTOR_STATUS_RUNNING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MOTOR_STATUS_STOPPED;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MOTOR_STATUS_STARTING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> MOTOR_STATUS_STOPPING;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> GPS_STATUS_LOCK;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> GPS_STATUS_NO_LOCK;
 
   typedef boost::shared_ptr< ::mav_msgs::Status_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::mav_msgs::Status_<ContainerAllocator> const> ConstPtr;
@@ -152,7 +152,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
 // constants requiring out of line definition
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::RC_COMMAND_ATTITUDE =
         
           "\"attitude_thrust\""
@@ -161,7 +161,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::RC_COMMAND_ATTITUDE_HEIGHT =
         
           "\"attitude_height\""
@@ -170,7 +170,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::RC_COMMAND_POSITION =
         
           "\"position\""
@@ -179,7 +179,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::MOTOR_STATUS_RUNNING =
         
           "\"running\""
@@ -188,7 +188,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::MOTOR_STATUS_STOPPED =
         
           "\"stopped\""
@@ -197,7 +197,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::MOTOR_STATUS_STARTING =
         
           "\"starting\""
@@ -206,7 +206,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::MOTOR_STATUS_STOPPING =
         
           "\"stopping\""
@@ -215,7 +215,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::GPS_STATUS_LOCK =
         
           "\"lock\""
@@ -224,7 +224,7 @@ typedef boost::shared_ptr< ::mav_msgs::Status const> StatusConstPtr;
    
 
    
-   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > 
+   template<typename ContainerAllocator> const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
       Status_<ContainerAllocator>::GPS_STATUS_NO_LOCK =
         
           "\"no_lock\""
@@ -436,13 +436,13 @@ struct Printer< ::mav_msgs::Status_<ContainerAllocator> >
     s << std::endl;
     Printer< ::std_msgs::Header_<ContainerAllocator> >::stream(s, indent + "  ", v.header);
     s << indent << "vehicle_name: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.vehicle_name);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.vehicle_name);
     s << indent << "vehicle_type: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.vehicle_type);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.vehicle_type);
     s << indent << "battery_voltage: ";
     Printer<float>::stream(s, indent + "  ", v.battery_voltage);
     s << indent << "rc_command_mode: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.rc_command_mode);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.rc_command_mode);
     s << indent << "command_interface_enabled: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.command_interface_enabled);
     s << indent << "flight_time: ";
@@ -452,11 +452,11 @@ struct Printer< ::mav_msgs::Status_<ContainerAllocator> >
     s << indent << "cpu_load: ";
     Printer<float>::stream(s, indent + "  ", v.cpu_load);
     s << indent << "motor_status: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.motor_status);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.motor_status);
     s << indent << "in_air: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.in_air);
     s << indent << "gps_status: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.gps_status);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.gps_status);
     s << indent << "gps_num_satellites: ";
     Printer<int32_t>::stream(s, indent + "  ", v.gps_num_satellites);
   }

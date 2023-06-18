@@ -32,9 +32,12 @@ private:
 	std::string uav_name_;
 
 	ros::Subscriber uav_pose_sub_;
+	// ros::Subscriber uav_state_sub_;//buchong
 	
 	ros::Publisher vision_pub_;
 	ros::Publisher goal_pub_;
+
+	// mavros_msgs::State uav_state_;//buchong
 
 	ros::ServiceServer mission_server_;
 
@@ -55,6 +58,10 @@ private:
 		uav_pose_.header.stamp = ros::Time::now();
 		vision_pub_.publish(uav_pose_);
 	}
+
+	// void uav_state_cb(const mavros_msgs::State::ConstPtr& msg_p){//buchong
+		// uav_state_=*msg_p;
+	// }
 
 	void mainloop_timer_cb(const ros::TimerEvent &event);
 
